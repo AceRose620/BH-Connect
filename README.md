@@ -2,5 +2,5 @@
 企業関連業務ページをHtml/CSSで実装しました。<br>
 Pixel Perfect &amp; Full Responsiveを完成しました。<br>
 
-Design: <br><br><br>
+・デザイン: <br><br>
 <img src="assets/images/background.jpg"/>
