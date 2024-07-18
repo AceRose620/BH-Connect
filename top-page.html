@@ -8,11 +8,15 @@
     <link rel="stylesheet" href="assets/stylesheets/application.css">
     <link rel="stylesheet" href="assets/stylesheets/home.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
 </head>
 <body>
     <header>
-        <img class="logo" src="assets/images/bhconnect-logo.png" width="69px" height="87px">
-        <div class="head-banner"></div>
+        <div class="center-header">
+            <img class="logo" src="assets/images/bhconnect-logo.png" width="69px" height="87px" alt="">
+            <div class="head-banner"></div>
+        </div>
         <span class="plan-change">プラン変更</span>
         <span class="splitter">/</span>
         <span class="button-login">ログイン</span>
@@ -28,13 +32,10 @@
         </div>
         <div class="carousel">
             <div class=image-slide>
-                <img src="assets/images/main01.jpg" width="100%">
-            </div>
-            <div class="dot-line">
-                <div class="active"></div>
-                <div></div>
-                <div></div>
-                <div></div>
+                <img src="assets/images/main01.jpg" alt="">
+                <img src="assets/images/main02.jpg" alt="">
+                <img src="assets/images/main03.jpg" alt="">
+                <img src="assets/images/main04.jpg" alt="">
             </div>
         </div>
         <div class="center-content">
@@ -66,7 +67,7 @@
                             </div>
                         </div>
                         <div class="sub-content">
-                            <img src="assets/images/sm-1.jpg">
+                            <img src="assets/images/sm-1.jpg" alt="">
                             <div class="text-content">
                                 多種多様なオンラインセミナーを<br>
                                 受講できます
@@ -90,7 +91,7 @@
                             </div>
                         </div>
                         <div class="sub-content">
-                            <img src="assets/images/sm-2.jpg">
+                            <img src="assets/images/sm-2.jpg" alt="">
                             <div class="text-content">
                                 プロが目利きした選りすぐりの良品を<br>
                                 優待価格で購入できます
@@ -114,7 +115,7 @@
                             </div>
                         </div>
                         <div class="sub-content">
-                            <img src="assets/images/sm-3.jpg">
+                            <img src="assets/images/sm-3.jpg" alt="">
                             <div class="text-content">
                                 エンドユーザーとプロフェッショナルを<br>
                                 つなぐ場をご用意
@@ -175,7 +176,7 @@
             </div>
             <div class="production-container">
                 <div class="production">
-                    <img src="assets/images/production01.jpg" width="500" height="500">
+                    <img src="assets/images/production01.jpg" width="500" height="500" alt="">
                     <div class="info">
                         <div class="number">
                             Pick up.01
@@ -211,14 +212,14 @@
                             <br>
                             醸造工程（Scope1 & 2）でカーボンゼロを達成することで、フードサプライチェーンにおける脱炭素（カーボンニュートラル）に貢献する世界初の日本酒です♪
                             <div class="link-push">
-                                <img src="assets/images/link.png">
+                                <img src="assets/images/link.png" alt="">
                                 詳しくはコチラ
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="production">
-                    <img src="assets/images/production02.jpg" width="500" height="500">
+                    <img src="assets/images/production02.jpg" width="500" height="500" alt="">
                     <div class="info">
                         <div class="number">
                             Pick up.02
@@ -688,3 +689,42 @@
 </footer>
 <p class="version">Copyright © 2024 Beauty Gate Japan Co.Ltd All Rights Reserved.</p>
 </html>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".image-slide").slick({
+            dots: true,
+            centerMode: true,
+            slidesToShow: 3,
+            arrows: true,
+            variableWidth: true,
+            autoplay: true,
+            autoplaySpeed: 3000,
+            infinite: true,
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        // arrows: true,
+                        centerMode: false,
+                        centerPadding: "0px",
+                        slidesToShow: 1,
+                        variableWidth: false,
+                    },
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        // arrows: true,
+                        centerMode: false,
+                        centerPadding: "0px",
+                        slidesToShow: 1,
+                        variableWidth: false,
+                    },
+                },
+            ],
+        });
+    });
+</script>

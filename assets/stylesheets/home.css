@@ -6,7 +6,7 @@
 }
 
 .logo {
-    margin-left: 16px;
+    margin-left: 9px;
 }
 
 header {
@@ -16,10 +16,15 @@ header {
     position: relative;
 }
 
+header .center-header {
+    width: 1000px;
+    display: flex;
+}
+
 header .head-banner {
     background-color: #E6E6E6;
     height: 87px;
-    width: 894px;
+    width: 100%;
     margin-left: 50px;
 }
 
@@ -48,7 +53,6 @@ header .button-login {
 }
 
 .navigation-bar {
-    margin-top: 20px;
     height: 40px;
     display: flex;
     font-size: 15px;
@@ -69,11 +73,20 @@ header .button-login {
 
 .carousel {
     height: auto;
-    width: 1000px;
+    width: 100%;
 }
 
 .carousel .image-slide {
-    /* height: 388px; */
+    display: flex;
+}
+
+.carousel .image-slide .slick-center {
+    opacity: 1;
+    padding: 0 18px;
+}
+
+.carousel .image-slide .slick-slide:not(.slick-center) {
+    opacity: 0.5;
 }
 
 .carousel .image-slide>img {
@@ -82,7 +95,7 @@ header .button-login {
 }
 
 .carousel .dot-line {
-    margin-top: 19px;
+    margin-top: 14px;
     height: 15px;
     display: flex;
     justify-content: center;
@@ -98,7 +111,7 @@ header .button-login {
 }
 
 .center-content {
-    margin-top: 53px;
+    margin-top: 50px;
     text-align: center;
     width: 100%;
     display: flex;
@@ -113,6 +126,10 @@ header .button-login {
     width: 292px;
     background-color: white;
     border: 1px solid red;
+}
+
+.center-content .middle-content {
+    width: 1000px;
 }
 
 .center-content .text-content {
@@ -131,7 +148,7 @@ header .button-login {
     height: 250px;
     padding: 24px 0 0 0;
     position: relative;
-    margin: 0px 17px;
+    width: 33.33%;
 }
 
 .center-content .image-content .content .index-content {
@@ -197,7 +214,10 @@ header .button-login {
 }
 
 .list-content {
-    margin-top: 67px;
+    margin-top: 35px;
+    padding-top: 32px;
+    background-color: #F5F5F5;
+    border-radius: 15px;
 }
 
 .list-content .sub-title {
@@ -207,7 +227,7 @@ header .button-login {
 
 .list-content .sub-container {
     margin-top: 25px;
-    height: 137px;
+    height: 167px;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -220,17 +240,19 @@ header .button-login {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: white;
+    border-radius: 70px;
 }
 
 .pickup-container {
-    margin-top: 225px;
+    margin-top: 218px;
 }
 
 .pickup-container .head-title {
     font-size: 40px;
     font-weight: bold;
     color: #2D2D2D;
-    margin-left: 13px;
+    margin-left: 4px;
     width: 352px;
     padding-bottom: 4px;
     border-width: 0 0 5px 0;
@@ -254,19 +276,25 @@ header .button-login {
 
 .pickup-container .choice-content {
     display: flex;
-    margin-top: 44px;
+    margin-top: 52px;
     flex-wrap: wrap;
 }
 
 .pickup-container .choice-content .sub-content {
-    width: 183px;
+    width: 176px;
+    height: 34px;
     margin-left: 7px;
+    margin-top: 16px;
     text-align: center;
-    padding-top: 30px;
+    background: #FFEFEF;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .pickup-container .production-container {
-    padding-left: 15px;
+    padding-left: 8px;
 }
 
 .pickup-container .production-container .production {
@@ -276,7 +304,10 @@ header .button-login {
 
 .pickup-container .production-container .production .info {
     width: 100%;
+    background-color: #F5F5F5;
     position: relative;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 .pickup-container .production-container .production .info .number {
@@ -296,7 +327,7 @@ header .button-login {
     position: absolute;
     width: 0;
     height: 0;
-    border-bottom: 55px solid transparent;
+    border-bottom: 54px solid transparent;
     border-left: 35px solid #FF0000;
     left: 100%;
 }
@@ -458,14 +489,15 @@ header .button-login {
     font-size: 18px;
     width: 12.5%;
     text-align: center;
+    border-bottom: 1px solid #707070;
 }
 
 .adverts-container .product-list-container {
-    margin-top: 73px;
+    margin-top: 80px;
 }
 
 .service-container .product-list-container {
-    margin-top: 57px;
+    margin-top: 45px;
 }
 
 .adverts-container .product-list-container .sub-title,
@@ -506,6 +538,12 @@ header .button-login {
 .publish-container .product-list-container .product-list .sub-product .product-info {
     margin-top: 33px;
     font-size: 16px;
+}
+
+.adverts-container .product-list-container .product-list .sub-product .product-info > span,
+.service-container .product-list-container .product-list .sub-product .product-info > span,
+.publish-container .product-list-container .product-list .sub-product .product-info > span {
+    border-bottom: 1px solid #2D2D2D;
 }
 
 .adverts-container .product-list-container .product-list .sub-product .product-price,
@@ -701,6 +739,14 @@ span.red {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.slick-dots {
+    margin-bottom: -23px !important;
+}
+
+.slick-dots li button:before {
+    content: url(../images/dot.png) !important;
 }
 
 @media (max-width: 1580px) {
