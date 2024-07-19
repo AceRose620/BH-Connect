@@ -3,4 +3,4 @@
 Pixel Perfect &amp; Full Responsiveを完成しました。<br>
 
 ・デザイン: <br><br>
-<img src="assets/images/background.jpg"/>
+<img src="assets/images/background.png"/>
