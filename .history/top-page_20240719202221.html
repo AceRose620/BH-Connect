@@ -1,3 +1,4 @@
+<!-- HTML with Tailwind -->
 <!DOCTYPE html>
 <head>
     <!-- @import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
@@ -8,29 +9,30 @@
     <link rel="stylesheet" href="assets/stylesheets/application.css">
     <link rel="stylesheet" href="assets/stylesheets/home.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-h-auto w-full/1.8.1/slick.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-h-auto w-full/1.8.1/slick-theme.css">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
 </head>
 <body>
-    <header>
+    <header class="flex justify-center pt-6 relative">
         <div class="center-header">
-            <img class="logo" src="assets/images/bhconnect-logo.png" width="69px" height="87px" alt="">
+            <img class="ml-2" src="assets/images/bhconnect-ml-2.png" width="69px" height="87px" alt="">
             <div class="head-banner"></div>
         </div>
         <span class="plan-change">プラン変更</span>
         <span class="splitter">/</span>
         <span class="button-login">ログイン</span>
     </header>
-    <div class="long-splitter"></div>
-    <div class="top-container">
-        <div class="navigation-bar">
+    <div class="w-full h-0 bg-neutral-500 opacity-20 mt-5"></div>
+    <div class="w-full flex flex-col justify-center items-center">
+        <div class="h-10 flex text-base w-96">
             <div class="navi-item">B＋Hモール</div>
             <div class="navi-item">B＋Hセミナー</div>
             <div class="navi-item">B＋Hサークル</div>
             <div class="navi-item">マイページ</div>
             <div class="navi-item">カート</div>
         </div>
-        <div class="carousel">
+        <div class="h-auto w-full">
             <div class=image-slide>
                 <img src="assets/images/main01.jpg" alt="">
                 <img src="assets/images/main02.jpg" alt="">
@@ -38,7 +40,7 @@
                 <img src="assets/images/main04.jpg" alt="">
             </div>
         </div>
-        <div class="center-content">
+        <div class="mt-12 text-center w-full flex justify-around">
             <div class="background-banner"></div>
             <div class="middle-content">
                 <div class="header">
@@ -123,7 +125,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="list-content">
+                <div class="mt-9 pt-8 bg-neutral-100 rounded-2xl">
                     <div class="sub-title">
                         \&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;やりたいことから探す&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/
                     </div>
@@ -155,8 +157,8 @@
         </div>
     </div>
     
-    <div class="main-content">
-        <div class="pickup-container">
+    <div class="w-96 p-2 -mt-5">
+        <div class="mt-56">
             <div class="head-title">
                 Pick up
                 <span>
@@ -265,7 +267,7 @@
                     </div>
                 </div>
             </div>
-            <div class="this-month-pickup-container">
+            <div class="this-month-mt-56">
                 <div class="title">
                     今月のピックアップ
                 </div>
@@ -315,7 +317,7 @@
                 </div>
             </div>
         </div>
-        <div class="adverts-container">
+        <div class="mt-52">
             <div class="title">
                 B <span class="red">+</span> Hモール
             </div>
@@ -346,12 +348,12 @@
                             B＋H PRO 会員価格
                             <span class="amount">¥1,200</span>
                         </div>
-                        <div class="thin-splitter"></div>
+                        <div class="h-0 bg-neutral-500 mt-1"></div>
                         <div class="product-price">
                             一般価格
                             <span class="amount">¥1,382</span>
                         </div>
-                        <div class="thick-splitter"></div>
+                        <div class="h-0.5 bg-zinc-400 mt-0.5"></div>
                     </div>
                     <div class="sub-product">
                         <div class="product-number">2</div>
@@ -362,12 +364,12 @@
                             B＋H PRO 会員価格
                             <span class="amount">¥1,200</span>
                         </div>
-                        <div class="thin-splitter"></div>
+                        <div class="h-0 bg-neutral-500 mt-1"></div>
                         <div class="product-price">
                             一般価格
                             <span class="amount">¥1,382</span>
                         </div>
-                        <div class="thick-splitter"></div>
+                        <div class="h-0.5 bg-zinc-400 mt-0.5"></div>
                     </div>
                     <div class="sub-product">
                         <div class="product-number">3</div>
@@ -378,12 +380,12 @@
                             B＋H PRO 会員価格
                             <span class="amount">¥1,200</span>
                         </div>
-                        <div class="thin-splitter"></div>
+                        <div class="h-0 bg-neutral-500 mt-1"></div>
                         <div class="product-price">
                             一般価格
                             <span class="amount">¥1,382</span>
                         </div>
-                        <div class="thick-splitter"></div>
+                        <div class="h-0.5 bg-zinc-400 mt-0.5"></div>
                     </div>
                     <div class="sub-product">
                         <div class="product-number">4</div>
@@ -394,12 +396,12 @@
                             B＋H PRO 会員価格
                             <span class="amount">¥1,200</span>
                         </div>
-                        <div class="thin-splitter"></div>
+                        <div class="h-0 bg-neutral-500 mt-1"></div>
                         <div class="product-price">
                             一般価格
                             <span class="amount">¥1,382</span>
                         </div>
-                        <div class="thick-splitter"></div>
+                        <div class="h-0.5 bg-zinc-400 mt-0.5"></div>
                     </div>
                     <div class="sub-product">
                         <div class="product-number">5</div>
@@ -410,12 +412,12 @@
                             B＋H PRO 会員価格
                             <span class="amount">¥1,200</span>
                         </div>
-                        <div class="thin-splitter"></div>
+                        <div class="h-0 bg-neutral-500 mt-1"></div>
                         <div class="product-price">
                             一般価格
                             <span class="amount">¥1,382</span>
                         </div>
-                        <div class="thick-splitter"></div>
+                        <div class="h-0.5 bg-zinc-400 mt-0.5"></div>
                     </div>
                     <div class="sub-product">
                         <div class="product-number">6</div>
@@ -426,12 +428,12 @@
                             B＋H PRO 会員価格
                             <span class="amount">¥1,200</span>
                         </div>
-                        <div class="thin-splitter"></div>
+                        <div class="h-0 bg-neutral-500 mt-1"></div>
                         <div class="product-price">
                             一般価格
                             <span class="amount">¥1,382</span>
                         </div>
-                        <div class="thick-splitter"></div>
+                        <div class="h-0.5 bg-zinc-400 mt-0.5"></div>
                     </div>
                 </div>
             </div>
@@ -449,12 +451,12 @@
                             B＋H PRO 会員価格
                             <span class="amount">¥1,200</span>
                         </div>
-                        <div class="thin-splitter"></div>
+                        <div class="h-0 bg-neutral-500 mt-1"></div>
                         <div class="product-price">
                             一般価格
                             <span class="amount">¥1,382</span>
                         </div>
-                        <div class="thick-splitter"></div>
+                        <div class="h-0.5 bg-zinc-400 mt-0.5"></div>
                     </div>
                     <div class="sub-product">
                         <div class="product-number">2</div>
@@ -465,12 +467,12 @@
                             B＋H PRO 会員価格
                             <span class="amount">¥1,200</span>
                         </div>
-                        <div class="thin-splitter"></div>
+                        <div class="h-0 bg-neutral-500 mt-1"></div>
                         <div class="product-price">
                             一般価格
                             <span class="amount">¥1,382</span>
                         </div>
-                        <div class="thick-splitter"></div>
+                        <div class="h-0.5 bg-zinc-400 mt-0.5"></div>
                     </div>
                     <div class="sub-product">
                         <div class="product-number">3</div>
@@ -481,12 +483,12 @@
                             B＋H PRO 会員価格
                             <span class="amount">¥1,200</span>
                         </div>
-                        <div class="thin-splitter"></div>
+                        <div class="h-0 bg-neutral-500 mt-1"></div>
                         <div class="product-price">
                             一般価格
                             <span class="amount">¥1,382</span>
                         </div>
-                        <div class="thick-splitter"></div>
+                        <div class="h-0.5 bg-zinc-400 mt-0.5"></div>
                     </div>
                     <div class="sub-product">
                         <div class="product-number">4</div>
@@ -497,12 +499,12 @@
                             B＋H PRO 会員価格
                             <span class="amount">¥1,200</span>
                         </div>
-                        <div class="thin-splitter"></div>
+                        <div class="h-0 bg-neutral-500 mt-1"></div>
                         <div class="product-price">
                             一般価格
                             <span class="amount">¥1,382</span>
                         </div>
-                        <div class="thick-splitter"></div>
+                        <div class="h-0.5 bg-zinc-400 mt-0.5"></div>
                     </div>
                     <div class="sub-product">
                         <div class="product-number">5</div>
@@ -513,12 +515,12 @@
                             B＋H PRO 会員価格
                             <span class="amount">¥1,200</span>
                         </div>
-                        <div class="thin-splitter"></div>
+                        <div class="h-0 bg-neutral-500 mt-1"></div>
                         <div class="product-price">
                             一般価格
                             <span class="amount">¥1,382</span>
                         </div>
-                        <div class="thick-splitter"></div>
+                        <div class="h-0.5 bg-zinc-400 mt-0.5"></div>
                     </div>
                     <div class="sub-product">
                         <div class="product-number">6</div>
@@ -529,12 +531,12 @@
                             B＋H PRO 会員価格
                             <span class="amount">¥1,200</span>
                         </div>
-                        <div class="thin-splitter"></div>
+                        <div class="h-0 bg-neutral-500 mt-1"></div>
                         <div class="product-price">
                             一般価格
                             <span class="amount">¥1,382</span>
                         </div>
-                        <div class="thick-splitter"></div>
+                        <div class="h-0.5 bg-zinc-400 mt-0.5"></div>
                     </div>
                 </div>
             </div>
@@ -543,7 +545,7 @@
                 <span>もっと見る</span>
             </div>
         </div>
-        <div class="service-container">
+        <div class="mt-64">
             <div class="title">
                 B <span class="red">+</span> Hモール
             </div>
@@ -565,12 +567,12 @@
                             B＋H PRO 会員価格
                             <span class="amount">¥1,200</span>
                         </div>
-                        <div class="thin-splitter"></div>
+                        <div class="h-0 bg-neutral-500 mt-1"></div>
                         <div class="product-price">
                             一般価格
                             <span class="amount">¥1,382</span>
                         </div>
-                        <div class="thick-splitter"></div>
+                        <div class="h-0.5 bg-zinc-400 mt-0.5"></div>
                     </div>
                     <div class="sub-product">
                         <div class="product-number">2</div>
@@ -581,12 +583,12 @@
                             B＋H PRO 会員価格
                             <span class="amount">¥0</span>
                         </div>
-                        <div class="thin-splitter"></div>
+                        <div class="h-0 bg-neutral-500 mt-1"></div>
                         <div class="product-price">
                             一般価格
                             <span class="amount">¥2,000</span>
                         </div>
-                        <div class="thick-splitter"></div>
+                        <div class="h-0.5 bg-zinc-400 mt-0.5"></div>
                     </div>
                     <div class="sub-product">
                         <div class="product-number">3</div>
@@ -597,12 +599,12 @@
                             B＋H PRO 会員価格
                             <span class="amount">¥0</span>
                         </div>
-                        <div class="thin-splitter"></div>
+                        <div class="h-0 bg-neutral-500 mt-1"></div>
                         <div class="product-price">
                             一般価格
                             <span class="amount">¥2,000</span>
                         </div>
-                        <div class="thick-splitter"></div>
+                        <div class="h-0.5 bg-zinc-400 mt-0.5"></div>
                     </div>
                     <div class="sub-product">
                         <div class="product-number">4</div>
@@ -613,12 +615,12 @@
                             B＋H PRO 会員価格
                             <span class="amount">¥0</span>
                         </div>
-                        <div class="thin-splitter"></div>
+                        <div class="h-0 bg-neutral-500 mt-1"></div>
                         <div class="product-price">
                             一般価格
                             <span class="amount">¥2,000</span>
                         </div>
-                        <div class="thick-splitter"></div>
+                        <div class="h-0.5 bg-zinc-400 mt-0.5"></div>
                     </div>
                     <div class="sub-product">
                         <div class="product-number">5</div>
@@ -629,12 +631,12 @@
                             B＋H PRO 会員価格
                             <span class="amount">¥0</span>
                         </div>
-                        <div class="thin-splitter"></div>
+                        <div class="h-0 bg-neutral-500 mt-1"></div>
                         <div class="product-price">
                             一般価格
                             <span class="amount">¥2,000</span>
                         </div>
-                        <div class="thick-splitter"></div>
+                        <div class="h-0.5 bg-zinc-400 mt-0.5"></div>
                     </div>
                     <div class="sub-product">
                         <div class="product-number">6</div>
@@ -645,12 +647,12 @@
                             B＋H PRO 会員価格
                             <span class="amount">¥0</span>
                         </div>
-                        <div class="thin-splitter"></div>
+                        <div class="h-0 bg-neutral-500 mt-1"></div>
                         <div class="product-price">
                             一般価格
                             <span class="amount">¥2,000</span>
                         </div>
-                        <div class="thick-splitter"></div>
+                        <div class="h-0.5 bg-zinc-400 mt-0.5"></div>
                     </div>
                     <div class="sub-product">
                         <div class="product-number">7</div>
@@ -661,12 +663,12 @@
                             B＋H PRO 会員価格
                             <span class="amount">¥0</span>
                         </div>
-                        <div class="thin-splitter"></div>
+                        <div class="h-0 bg-neutral-500 mt-1"></div>
                         <div class="product-price">
                             一般価格
                             <span class="amount">¥2,000</span>
                         </div>
-                        <div class="thick-splitter"></div>
+                        <div class="h-0.5 bg-zinc-400 mt-0.5"></div>
                     </div>
                 </div>
             </div>
@@ -684,12 +686,12 @@
                             B＋H PRO 会員価格
                             <span class="amount">¥0</span>
                         </div>
-                        <div class="thin-splitter"></div>
+                        <div class="h-0 bg-neutral-500 mt-1"></div>
                         <div class="product-price">
                             一般価格
                             <span class="amount">¥2,000</span>
                         </div>
-                        <div class="thick-splitter"></div>
+                        <div class="h-0.5 bg-zinc-400 mt-0.5"></div>
                     </div>
                     <div class="sub-product">
                         <div class="product-number">2</div>
@@ -700,12 +702,12 @@
                             B＋H PRO 会員価格
                             <span class="amount">¥0</span>
                         </div>
-                        <div class="thin-splitter"></div>
+                        <div class="h-0 bg-neutral-500 mt-1"></div>
                         <div class="product-price">
                             一般価格
                             <span class="amount">¥2,000</span>
                         </div>
-                        <div class="thick-splitter"></div>
+                        <div class="h-0.5 bg-zinc-400 mt-0.5"></div>
                     </div>
                     <div class="sub-product">
                         <div class="product-number">3</div>
@@ -716,12 +718,12 @@
                             B＋H PRO 会員価格
                             <span class="amount">¥0</span>
                         </div>
-                        <div class="thin-splitter"></div>
+                        <div class="h-0 bg-neutral-500 mt-1"></div>
                         <div class="product-price">
                             一般価格
                             <span class="amount">¥2,000</span>
                         </div>
-                        <div class="thick-splitter"></div>
+                        <div class="h-0.5 bg-zinc-400 mt-0.5"></div>
                     </div>
                     <div class="sub-product">
                         <div class="product-number">4</div>
@@ -732,12 +734,12 @@
                             B＋H PRO 会員価格
                             <span class="amount">¥0</span>
                         </div>
-                        <div class="thin-splitter"></div>
+                        <div class="h-0 bg-neutral-500 mt-1"></div>
                         <div class="product-price">
                             一般価格
                             <span class="amount">¥2,000</span>
                         </div>
-                        <div class="thick-splitter"></div>
+                        <div class="h-0.5 bg-zinc-400 mt-0.5"></div>
                     </div>
                     <div class="sub-product">
                         <div class="product-number">5</div>
@@ -748,12 +750,12 @@
                             B＋H PRO 会員価格
                             <span class="amount">¥0</span>
                         </div>
-                        <div class="thin-splitter"></div>
+                        <div class="h-0 bg-neutral-500 mt-1"></div>
                         <div class="product-price">
                             一般価格
                             <span class="amount">¥2,000</span>
                         </div>
-                        <div class="thick-splitter"></div>
+                        <div class="h-0.5 bg-zinc-400 mt-0.5"></div>
                     </div>
                     <div class="sub-product">
                         <div class="product-number">6</div>
@@ -764,12 +766,12 @@
                             B＋H PRO 会員価格
                             <span class="amount">¥0</span>
                         </div>
-                        <div class="thin-splitter"></div>
+                        <div class="h-0 bg-neutral-500 mt-1"></div>
                         <div class="product-price">
                             一般価格
                             <span class="amount">¥2,000</span>
                         </div>
-                        <div class="thick-splitter"></div>
+                        <div class="h-0.5 bg-zinc-400 mt-0.5"></div>
                     </div>
                 </div>
             </div>
@@ -778,7 +780,7 @@
                 <span>もっと見る</span>
             </div>
         </div>
-        <div class="publish-container">
+        <div class="mt-48">
             <div class="title">
                 B <span class="red">+</span> Hモール
             </div>
@@ -831,14 +833,14 @@
                 </div>
             </div>
         </div>
-        <div class="footer-banner">
+        <div class="h-28 mt-32 flex">
             <div class="banner"></div>
             <div class="banner"></div>
         </div>
-        <div class="footer-logo">
-            <img src="assets/images/bhconnect-logo.png" width="87" alt="">
+        <div class="footer-ml-2">
+            <img src="assets/images/bhconnect-ml-2.png" width="87" alt="">
         </div>
-        <div class="footer-link">
+        <div class="flex mt-14">
             <div class="sub-link">B＋Hモール</div>
             <div class="sub-link">B＋Hセミナー</div>
             <div class="sub-link">B＋Hサークル</div>
@@ -847,7 +849,7 @@
         </div>
     </div>
 </body>
-<footer>
+<footer class="h-28 bg-zinc-800 text-white flex p-52">
     <div class="company-info">
         <div class="company-type">【運営会社】</div>
         <div class="company-label">
@@ -865,7 +867,7 @@
 </html>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-h-auto w-full/1.8.1/slick.min.js"></script>
 <script type="text/javascript">
     $(document).ready(function () {
         $(".image-slide").slick({

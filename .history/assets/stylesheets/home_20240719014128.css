@@ -574,23 +574,29 @@ header .button-login {
 }
 
 .product-list-container .product-list .slick-next,
+.product-list-container .product-list .slick-next,
+.product-list-container .product-list .slick-prev,
 .product-list-container .product-list .slick-prev {
     width: 45px;
     height: 45px;
     margin: 0 -50px;
 }
 
+.product-list-container .product-list .slick-next::before,
 .product-list-container .product-list .slick-next::before {
     content: url(../images/product-next.png);
 }
 
+.product-list-container .product-list .slick-prev::before,
 .product-list-container .product-list .slick-prev::before {
     content: url(../images/product-prev.png);
     width: 45px;
     height: 45px;
 }
 
-.product-list-container .product-list .sub-product {
+.adverts-container .product-list-container .product-list .sub-product,
+.service-container .product-list-container .product-list .sub-product,
+.publish-container .product-list-container .product-list .sub-product {
     width: 25%;
     padding: 15px 14px;
 }

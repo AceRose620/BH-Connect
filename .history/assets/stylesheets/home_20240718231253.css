@@ -383,7 +383,7 @@ header .button-login {
 
 .pickup-container .production-container .production .info .protype .protype-val {
     width: 108px;
-    border-radius: 15px;
+    border-radius: 10px;
     border: 1px solid #707070;
     color: #2D2D2D;
     margin-left: 9px;
@@ -479,26 +479,6 @@ header .button-login {
     margin-top: 32px;
 }
 
-.pickup-container .this-month-pickup-container .recommend-production-list .slick-prev {
-    margin: -50px -60px;
-}
-
-.pickup-container .this-month-pickup-container .recommend-production-list .slick-next {
-    margin: -50px -30px;
-}
-
-.pickup-container .this-month-pickup-container .recommend-production-list .slick-prev::after {
-    content: url(../images/product-prev.png);
-    width: 45px;
-    height: 45px;
-}
-
-.pickup-container .this-month-pickup-container .recommend-production-list .slick-next::after {
-    content: url(../images/product-next.png);
-    width: 45px;
-    height: 45px;
-}
-
 .pickup-container .this-month-pickup-container .recommend-production-list .item {
     width: 25%;
     text-align: center;
@@ -573,26 +553,11 @@ header .button-login {
     margin-top: 60px;
 }
 
-.product-list-container .product-list .slick-next,
-.product-list-container .product-list .slick-prev {
-    width: 45px;
-    height: 45px;
-    margin: 0 -50px;
-}
-
-.product-list-container .product-list .slick-next::before {
-    content: url(../images/product-next.png);
-}
-
-.product-list-container .product-list .slick-prev::before {
-    content: url(../images/product-prev.png);
-    width: 45px;
-    height: 45px;
-}
-
-.product-list-container .product-list .sub-product {
+.adverts-container .product-list-container .product-list .sub-product,
+.service-container .product-list-container .product-list .sub-product,
+.publish-container .product-list-container .product-list .sub-product {
     width: 25%;
-    padding: 15px 14px;
+    padding: 0 14px;
 }
 
 .adverts-container .product-list-container .product-list .sub-product .product-name,

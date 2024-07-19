@@ -590,7 +590,9 @@ header .button-login {
     height: 45px;
 }
 
-.product-list-container .product-list .sub-product {
+.adverts-container .product-list-container .product-list .sub-product,
+.service-container .product-list-container .product-list .sub-product,
+.publish-container .product-list-container .product-list .sub-product {
     width: 25%;
     padding: 15px 14px;
 }
