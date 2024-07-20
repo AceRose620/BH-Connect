@@ -920,25 +920,4 @@ span.red {
     .pickup-container .production-container .production .info .price .item {
         align-items: center;
     }
-    .list-content .sub-container {
-        height: auto;
-    }
-    .list-content .sub-container 
-    {
-        padding-bottom: 40px;
-        flex-wrap: wrap;
-    }
-    .center-content .image-content .content {
-        min-width: 205px;
-    }
-}
-
-@media (max-width: 850px) {
-    .center-content .image-content {
-        flex-direction: column;
-        align-items: center;
-    }
-    .center-content .image-content .content .sub-content {
-        width: 310px;
-    }
 }

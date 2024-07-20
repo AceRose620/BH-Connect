@@ -928,17 +928,4 @@ span.red {
         padding-bottom: 40px;
         flex-wrap: wrap;
     }
-    .center-content .image-content .content {
-        min-width: 205px;
-    }
-}
-
-@media (max-width: 850px) {
-    .center-content .image-content {
-        flex-direction: column;
-        align-items: center;
-    }
-    .center-content .image-content .content .sub-content {
-        width: 310px;
-    }
 }

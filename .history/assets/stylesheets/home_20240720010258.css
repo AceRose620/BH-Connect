@@ -934,11 +934,4 @@ span.red {
 }
 
 @media (max-width: 850px) {
-    .center-content .image-content {
-        flex-direction: column;
-        align-items: center;
-    }
-    .center-content .image-content .content .sub-content {
-        width: 310px;
-    }
 }
