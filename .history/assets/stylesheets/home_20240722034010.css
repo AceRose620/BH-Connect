@@ -1028,12 +1028,10 @@ span.red {
     .pickup-container .this-month-pickup-container .recommend-production-list .slick-prev::before {
         content: url(../images/sm-prev.png);
     }
-    .pickup-container .this-month-pickup-container .recommend-production-list .slick-next::before {
-        content: url(../images/sm-next.png);
-    }
     .product-list-container .product-list .slick-prev::before {
         content: url(../images/sm-product-prev.png);
     }
+    .pickup-container .this-month-pickup-container .recommend-production-list .slick-next::before,
     .product-list-container .product-list .slick-next::before {
         content: url(../images/sm-product-next.png);
     }

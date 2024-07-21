@@ -949,12 +949,6 @@ span.red {
 }
 
 @media (max-width: 850px) {
-    .pickup-container,
-    .adverts-container,
-    .service-container,
-    .publish-container {
-        padding: 0 40px;
-    }
     .center-content .image-content {
         flex-direction: column;
         align-items: center;
@@ -1019,55 +1013,12 @@ span.red {
         margin-top: 10px;
     }
     .pickup-container .head-title {
-        width: 100%;
-    }
-    .pickup-container .this-month-pickup-container .recommend-production-list .slick-prev,
-    .pickup-container .this-month-pickup-container .recommend-production-list .slick-next {
-        transform: translate(-14px, -14px);
+        margin: 0 auto;
     }
     .pickup-container .this-month-pickup-container .recommend-production-list .slick-prev::before {
-        content: url(../images/sm-prev.png);
-    }
-    .pickup-container .this-month-pickup-container .recommend-production-list .slick-next::before {
-        content: url(../images/sm-next.png);
-    }
-    .product-list-container .product-list .slick-prev::before {
         content: url(../images/sm-product-prev.png);
     }
-    .product-list-container .product-list .slick-next::before {
-        content: url(../images/sm-product-next.png);
-    }
-    .pickup-container .this-month-pickup-container .recommend-production-list .slick-prev {
-        left: -15px;
-    }
-    .pickup-container .this-month-pickup-container .recommend-production-list .slick-next {
-        right: -35px;
-    }
-    .product-list-container .product-list {
-        padding: 0 !important;
-    }
-    .pickup-container .this-month-pickup-container .recommend-production-list {
-        padding: 0;
-    }
-    .product-list-container .product-list .slick-prev,
-    .product-list-container .product-list .slick-next {
-        transform: translate(-14px, -14px);
-    }
-    .product-list-container .product-list .slick-prev {
-        left: -15px;
-    }
-    .product-list-container .product-list .slick-next {
-        right: -35px;
-    }
-    .footer-banner {
-        flex-wrap: wrap;
-        height: auto;
-    }
-    .footer-banner .banner {
-        width: 100%;
-        margin-top: 10px;
-    }
-    .footer-link {
-        display: none;
+    .pickup-container .this-month-pickup-container .recommend-production-list .slick-next::before {
+        content: url(../images/sm-product-prev.png);
     }
 }
