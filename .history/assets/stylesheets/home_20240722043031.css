@@ -57,10 +57,6 @@ header .button-login {
     display: none;
 }
 
-.menu-icon {
-    display: none;
-}
-
 .navigation-bar {
     height: 40px;
     display: flex;
@@ -1112,7 +1108,6 @@ span.red {
     .footer-banner {
         flex-wrap: wrap;
         height: auto;
-        padding: 0 40px;
     }
     .footer-banner .banner {
         width: 100%;
@@ -1174,25 +1169,5 @@ span.red {
     }
     footer .company-info .company-label .location {
         font-size: 13px;
-    }
-    .mobile-bucket {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-right: 20px;
-    }
-    .mobile-bucket>img {
-        width: 25px;
-        height: 25px;
-    }
-    .mobile-bucket .cart-amount {
-        position: relative;
-        font-size: 22px;
-        letter-spacing: 0;
-    }
-    .menu-icon {
-        display: flex;
-        align-items: center;
-        margin-right: 30px;
     }
 }

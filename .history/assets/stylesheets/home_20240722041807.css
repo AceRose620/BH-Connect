@@ -53,14 +53,6 @@ header .button-login {
     margin-right: 63px;
 }
 
-.mobile-bucket {
-    display: none;
-}
-
-.menu-icon {
-    display: none;
-}
-
 .navigation-bar {
     height: 40px;
     display: flex;
@@ -1061,7 +1053,6 @@ span.red {
     }
     .adverts-container .choice-content {
         flex-wrap: wrap;
-        padding: 0;
     }
     .adverts-container .choice-content .choice {
         width: 45%;
@@ -1112,7 +1103,6 @@ span.red {
     .footer-banner {
         flex-wrap: wrap;
         height: auto;
-        padding: 0 40px;
     }
     .footer-banner .banner {
         width: 100%;
@@ -1133,9 +1123,6 @@ span.red {
         width: 225px;
         padding-bottom: 10px;
         margin: 0 auto;
-    }
-    .pickup-container .choice-content .sub-content {
-        width: 147px;
     }
     footer {
         flex-wrap: wrap;
@@ -1174,25 +1161,5 @@ span.red {
     }
     footer .company-info .company-label .location {
         font-size: 13px;
-    }
-    .mobile-bucket {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-right: 20px;
-    }
-    .mobile-bucket>img {
-        width: 25px;
-        height: 25px;
-    }
-    .mobile-bucket .cart-amount {
-        position: relative;
-        font-size: 22px;
-        letter-spacing: 0;
-    }
-    .menu-icon {
-        display: flex;
-        align-items: center;
-        margin-right: 30px;
     }
 }

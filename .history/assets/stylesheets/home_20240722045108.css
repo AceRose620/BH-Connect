@@ -1112,7 +1112,6 @@ span.red {
     .footer-banner {
         flex-wrap: wrap;
         height: auto;
-        padding: 0 40px;
     }
     .footer-banner .banner {
         width: 100%;

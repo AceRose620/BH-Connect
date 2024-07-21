@@ -53,14 +53,6 @@ header .button-login {
     margin-right: 63px;
 }
 
-.mobile-bucket {
-    display: none;
-}
-
-.menu-icon {
-    display: none;
-}
-
 .navigation-bar {
     height: 40px;
     display: flex;
@@ -864,9 +856,6 @@ span.red {
     .carousel .image-slide .slick-prev {
         left: 18%;
     }
-    footer {
-        padding: 0 70px;
-    }
 }
 
 @media (max-width: 1366px) {
@@ -891,12 +880,6 @@ span.red {
     }
     .carousel .image-slide .slick-prev {
         left: 18%;
-    }
-    footer {
-        padding: 0;
-    }
-    footer .company-info .company-type  {
-        margin: 0;
     }
 }
 
@@ -932,38 +915,6 @@ span.red {
 
     .navigation-bar {
         min-width: 550px;
-    }
-
-    footer {
-        flex-wrap: wrap;
-        padding: 30px 0 50px 0;
-        height: auto;
-    }
-    footer .company-info {
-        flex-wrap: wrap;
-        margin: 0;
-        width: 100%;
-    }
-    footer .company-info {
-        width: 100%;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    footer .company-info .company-type {
-        margin: 0;
-    }
-    footer .company-info .company-label {
-        margin: 0;
-    }
-    footer .company-link {
-        width: 100%;
-        flex-wrap: wrap;
-        margin-top: 30px;
-    }
-    footer .company-link .sub-link {
-        width: 100%;
-        margin: 10px 0 0 0;
-        text-align: center;
     }
 }
 
@@ -1061,7 +1012,6 @@ span.red {
     }
     .adverts-container .choice-content {
         flex-wrap: wrap;
-        padding: 0;
     }
     .adverts-container .choice-content .choice {
         width: 45%;
@@ -1112,7 +1062,6 @@ span.red {
     .footer-banner {
         flex-wrap: wrap;
         height: auto;
-        padding: 0 40px;
     }
     .footer-banner .banner {
         width: 100%;
@@ -1134,12 +1083,9 @@ span.red {
         padding-bottom: 10px;
         margin: 0 auto;
     }
-    .pickup-container .choice-content .sub-content {
-        width: 147px;
-    }
     footer {
         flex-wrap: wrap;
-        padding: 30px 40px 50px 40px;
+        padding: 30px 0 50px 0;
         height: auto;
     }
     footer .company-info {
@@ -1157,7 +1103,6 @@ span.red {
     }
     footer .company-info .company-label {
         margin: 0;
-        text-align: center;
     }
     footer .company-link {
         width: 100%;
@@ -1168,31 +1113,5 @@ span.red {
         width: 100%;
         margin: 10px 0 0 0;
         text-align: center;
-    }
-    footer .company-info .company-label .nickname {
-        font-size: 18px;
-    }
-    footer .company-info .company-label .location {
-        font-size: 13px;
-    }
-    .mobile-bucket {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-right: 20px;
-    }
-    .mobile-bucket>img {
-        width: 25px;
-        height: 25px;
-    }
-    .mobile-bucket .cart-amount {
-        position: relative;
-        font-size: 22px;
-        letter-spacing: 0;
-    }
-    .menu-icon {
-        display: flex;
-        align-items: center;
-        margin-right: 30px;
     }
 }

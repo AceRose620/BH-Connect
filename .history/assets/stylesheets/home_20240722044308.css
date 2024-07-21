@@ -57,8 +57,16 @@ header .button-login {
     display: none;
 }
 
-.menu-icon {
-    display: none;
+.menu-icon.active span:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.menu-icon.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.menu-icon.active span:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
 }
 
 .navigation-bar {
@@ -1112,7 +1120,6 @@ span.red {
     .footer-banner {
         flex-wrap: wrap;
         height: auto;
-        padding: 0 40px;
     }
     .footer-banner .banner {
         width: 100%;
@@ -1179,7 +1186,7 @@ span.red {
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-right: 20px;
+        margin-right: 50px;
     }
     .mobile-bucket>img {
         width: 25px;
@@ -1189,10 +1196,5 @@ span.red {
         position: relative;
         font-size: 22px;
         letter-spacing: 0;
-    }
-    .menu-icon {
-        display: flex;
-        align-items: center;
-        margin-right: 30px;
     }
 }
