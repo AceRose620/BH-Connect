@@ -104,11 +104,6 @@ a.login {
     color: grey;
 }
 
-.dropdown>button img {
-    float: right;
-    margin-top: 5px;
-}
-
 .dropdown-content {
     display: none;
     position: absolute;
