@@ -209,6 +209,16 @@ span.red {
     font-weight: bold;
 }
 
+button.btn-go-top {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 50%; /* Place the button at the bottom of the page */
+    right: 0px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    transition: opacity 0.3s; /* Add transition for smooth appearance */
+}
+
 @media (max-width: 1536px) {
     header .center-header {
         width: 54%;
