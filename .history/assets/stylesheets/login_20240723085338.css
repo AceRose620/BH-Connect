@@ -24,20 +24,14 @@
     margin: 100px auto;
 }
 
-.register-confirm-pane {
-    margin: 300px auto;
-}
-
 .login-pane span.title,
-.register-pane span.title,
-.register-confirm-pane span.title {
+.register-pane span.title {
     font-size: 35px;
     color: #2D2D2D;
 }
 
 .login-pane span.sub-title,
-.register-pane span.sub-title,
-.register-confirm-pane span.sub-title {
+.register-pane span.sub-title {
     font-size: 16px;
     color: #2D2D2D;
 }
@@ -82,10 +76,6 @@ button.btn-go-top {
     border-radius: 20px;
     height: 43px;
     margin-top: 25px;
-}
-
-button.btn-go-top {
-    margin-top: 75px;
 }
 
 a.register,
@@ -148,7 +138,7 @@ p.text-content {
     font-size: 15px;
     text-align: center;
     margin-top: 65px;
-    line-height: 2;
+    line-height: 1.5;
 }
 
 @media (max-width: 580px) {
@@ -158,8 +148,7 @@ p.text-content {
     }
 
     .login-pane,
-    .register-pane,
-    .register-confirm-pane {
+    .register-pane {
         padding: 0 40px;
         width: auto;
         margin-top: 250px;
