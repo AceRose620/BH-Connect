@@ -1,0 +1,145 @@
+.img-logo {
+    position: absolute;
+    width: 299px;
+    top: 0;
+    left: 0;
+    margin: 100px 99px;
+}
+
+.login-pane,
+.register-pane {
+    width: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-pane {
+    margin: 275px auto;
+}
+
+.register-pane {
+    margin: 100px auto;
+}
+
+.login-pane span.title,
+.register-pane span.title {
+    font-size: 35px;
+    color: #2D2D2D;
+}
+
+.login-pane span.sub-title,
+.register-pane span.sub-title {
+    font-size: 16px;
+    color: #2D2D2D;
+}
+
+.login-pane input,
+.register-pane input {
+    width: 100%;
+    height: 42px;
+    border: 1px solid #C2C2C2;
+    border-radius: 10px;
+    padding: 0 20px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.login-pane input.mail,
+.register-pane input.mail {
+    margin-top: 45px;
+}
+
+.login-pane input.password {
+    margin-top: 15px;
+}
+
+.register-pane input {
+    margin-top: 15px;
+}
+
+a.find-password {
+    color: #2D2D2D;
+    margin-top: 10px;
+    margin-left: 300px;
+}
+
+button.btn-login,
+button.btn-register {
+    background-color: #FF0000;
+    color: white;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 20px;
+    height: 43px;
+    margin-top: 25px;
+}
+
+a.register,
+a.login {
+    color: #FF0000;
+    font-size: 20px;
+    border-bottom: 1px solid #FF0000;
+    letter-spacing: -1px;
+    margin-top: 50px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.dropdown>button {
+    width: 100%;
+    height: 42px;
+    border: 1px solid #C2C2C2;
+    border-radius: 10px;
+    padding: 0 20px;
+    font-size: 16px;
+    box-sizing: border-box;
+    text-align: left;
+    color: grey;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+@media (max-width: 580px) {
+    .img-logo {
+        width: 178px;
+        margin: 0;
+    }
+
+    .login-pane,
+    .register-pane {
+        padding: 0 40px;
+        width: auto;
+        margin-top: 250px;
+    }
+
+    a.find-password {
+        margin-left: 115px;
+    }
+}

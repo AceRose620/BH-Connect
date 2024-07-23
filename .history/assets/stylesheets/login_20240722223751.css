@@ -1,0 +1,11 @@
+.img-logo {
+    position: absolute;
+    width: 299px;
+    top: 0;
+    left: 0;
+    margin: 100px 99px;
+}
+
+.login-pane {
+    width: 520px;
+}
