@@ -1,0 +1,421 @@
+.main-content {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0 0 8px;
+    margin-top: -22px;
+}
+
+.logo {
+    margin-left: 9px;
+    width: 69px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding-top: 23px;
+    position: relative;
+}
+
+header .center-header {
+    width: 1000px;
+    display: flex;
+}
+
+header .head-banner {
+    background-color: #E6E6E6;
+    height: 87px;
+    width: 100%;
+    margin-left: 50px;
+}
+
+header span {
+    position: absolute;
+    font-size: 16px;
+    letter-spacing: -2px;
+}
+
+header .plan-change {
+    right: 0;
+    top: 50%;
+    margin-right: 158px;
+}
+
+header .splitter {
+    right: 0;
+    top: 50%;
+    margin-right: 135px;
+}
+
+header .button-login {
+    right: 0;
+    top: 50%;
+    margin-right: 63px;
+}
+
+.top-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.mobile-bucket {
+    display: none;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.navigation-bar {
+    height: 40px;
+    display: flex;
+    font-size: 15px;
+    width: 1000px;
+}
+
+.navigation-bar .navi-item {
+    width: 20%;
+    text-align: center;
+    place-items: center;
+    display: grid;
+}
+
+.navigation-bar .navi-item:hover {
+    cursor: pointer;
+    border-bottom: 3px solid red;
+}
+
+.center-content {
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.center-content .background-banner {
+    width: 292px;
+    background-color: white;
+    border: 1px solid red;
+    height: 734px;
+}
+
+.center-content .middle-content {
+    width: 1000px;
+}
+
+.footer-banner {
+    height: 118px;
+    margin-top: 128px;
+    display: flex;
+}
+
+.footer-banner .banner {
+    width: 50%;
+    height: 118px;
+    background-color: grey;
+    margin: 0 5px 0 10px;
+}
+
+.footer-logo {
+    text-align: center;
+    margin-top: 77px;
+}
+
+.footer-link {
+    display: flex;
+    margin-top: 57px;
+}
+
+.footer-link .sub-link {
+    width: 20%;
+    text-align: center;
+    border-left: 1px solid black;
+}
+
+.footer-link .sub-link:last-child {
+    border-right: 1px solid black;
+}
+
+footer {
+    height: 112px;
+    background-color: #2D2D2D;
+    color: white;
+    display: flex;
+    padding: 0 202px;
+}
+
+footer .company-info {
+    width: 50%;
+    display: flex;
+    justify-content: start;
+}
+
+footer .company-info .company-type {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-left: 53px;
+}
+
+footer .company-info .company-label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 25px;
+}
+
+footer .company-info .company-label .nickname {
+    font-size: 25px;
+    letter-spacing: -2px;
+}
+
+footer .company-info .company-label .location {
+    letter-spacing: 3px;
+    font-size: 15px;
+}
+
+footer .company-link {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    justify-content: center;
+}
+
+footer .company-link .sub-link {
+    margin-left: 75px;
+}
+
+p.version {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+}
+
+span.red {
+    color: red;
+    font-weight: bold;
+}
+
+@media (max-width: 1536px) {
+    header .center-header {
+        width: 54%;
+    }
+
+    .center-content .middle-content {
+        width: 54%;
+    }
+
+    .navigation-bar {
+        width: 58%;
+    }
+
+    footer {
+        padding: 0 70px;
+    }
+}
+
+@media (max-width: 1366px) {
+
+    .navigation-bar {
+        width: 54%;
+    }
+
+    .center-content .background-banner {
+        display: none;
+    }
+
+    .center-content .middle-content {
+        width: 75%;
+    }
+
+    footer {
+        padding: 0;
+    }
+
+    footer .company-info .company-type  {
+        margin: 0;
+    }
+}
+
+@media (max-width: 1024px) {
+    .main-content {
+        width: 100%;
+    }
+
+    .navigation-bar {
+        min-width: 550px;
+    }
+
+    footer {
+        flex-wrap: wrap;
+        padding: 30px 0 50px 0;
+        height: auto;
+    }
+
+    footer .company-info {
+        flex-wrap: wrap;
+        margin: 0;
+        width: 100%;
+    }
+
+    footer .company-info {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    footer .company-info .company-type {
+        margin: 0;
+    }
+
+    footer .company-info .company-label {
+        margin: 0;
+    }
+
+    footer .company-link {
+        width: 100%;
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+
+    footer .company-link .sub-link {
+        width: 100%;
+        margin: 10px 0 0 0;
+        text-align: center;
+    }
+}
+
+@media (max-width: 940px) {
+    .head-banner {
+        display: none;
+    }
+}
+
+@media (max-width: 850px) {
+    header .head-banner {
+        display: none;
+    }
+
+    .navigation-bar {
+        display: none;
+    }
+
+    .logo {
+        width: 41px;
+        float: left;
+        margin-left: 30px;
+    }
+
+    header .center-header {
+        width: 100%;
+    }
+
+    header .plan-change {
+        display: none;
+    }
+
+    header .splitter {
+        display: none;
+    }
+
+    header .button-login {
+        display: none;
+    }
+
+    .center-content .middle-content {
+        width: 100%;
+        padding: 0 40px;
+    }
+    
+    .footer-banner {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 0 40px;
+    }
+
+    .footer-banner .banner {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .footer-link {
+        display: none;
+    }
+
+    footer {
+        flex-wrap: wrap;
+        padding: 30px 40px 50px 40px;
+        height: auto;
+    }
+
+    footer .company-info {
+        flex-wrap: wrap;
+        margin: 0;
+        width: 100%;
+    }
+
+    footer .company-info {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    footer .company-info .company-type {
+        margin: 0;
+    }
+
+    footer .company-info .company-label {
+        margin: 0;
+        text-align: center;
+    }
+
+    footer .company-link {
+        width: 100%;
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+
+    footer .company-link .sub-link {
+        width: 100%;
+        margin: 10px 0 0 0;
+        text-align: center;
+    }
+
+    footer .company-info .company-label .nickname {
+        font-size: 18px;
+    }
+
+    footer .company-info .company-label .location {
+        font-size: 13px;
+    }
+
+    .mobile-bucket {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 20px;
+    }
+
+    .mobile-bucket>img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .mobile-bucket .cart-amount {
+        position: relative;
+        font-size: 22px;
+        letter-spacing: 0;
+    }
+    
+    .menu-icon {
+        display: flex;
+        align-items: center;
+        margin-right: 30px;
+    }
+}
