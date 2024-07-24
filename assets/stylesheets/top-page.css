@@ -584,18 +584,6 @@
     margin-left: -50px;
 }
 
-.thin-splitter {
-    height: 1px;
-    background-color: #707070;
-    margin-top: 5px;
-}
-
-.thick-splitter {
-    height: 2px;
-    background-color: #B7B7B7;
-    margin-top: 3px;
-}
-
 .long-splitter {
     width: 100%;
     height: 1px;

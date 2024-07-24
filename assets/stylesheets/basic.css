@@ -219,6 +219,18 @@ button.btn-go-top {
     transition: opacity 0.3s; /* Add transition for smooth appearance */
 }
 
+.thin-splitter {
+    height: 1px;
+    background-color: #707070;
+    margin-top: 5px;
+}
+
+.thick-splitter {
+    height: 2px;
+    background-color: #B7B7B7;
+    margin-top: 3px;
+}
+
 @media (max-width: 1536px) {
     header .center-header {
         width: 54%;
