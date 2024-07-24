@@ -14,7 +14,6 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
 </head>
 <body>
-    <div class="mobile-head-banner"></div>
     <header>
         <div class="center-header">
             <img class="logo" src="assets/images/bhconnect-logo.png" alt="">
@@ -31,9 +30,6 @@
             <img src="./assets/images/menu.png" alt="">
         </div>
     </header>
-    <button class="btn-go-top">
-        <img src="./assets/images/go-top.png" width="40px" alt=""/>
-    </button>
     <div class="long-splitter"></div>
     <div class="top-container">
         <div class="navigation-bar">
@@ -876,5 +872,93 @@
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-<script src="./assets/scripts/basic.js"></script>
-<script src="./assets/scripts/top-page.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        var screen_width = $( window ). width();
+
+        $(".image-slide").slick({
+            dots: true,
+            centerMode: true,
+            slidesToShow: 3,
+            arrows: true,
+            variableWidth: true,
+            autoplay: true,
+            autoplaySpeed: 3000,
+            infinite: true,
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        // arrows: true,
+                        centerMode: false,
+                        centerPadding: "0px",
+                        slidesToShow: 1,
+                        variableWidth: false,
+                    },
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        // arrows: true,
+                        centerMode: false,
+                        centerPadding: "0px",
+                        slidesToShow: 1,
+                        variableWidth: false,
+                    },
+                },
+            ],
+        });
+
+        $(".recommend-production-list").slick({
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            arrows: true,
+            // autoplay: true,
+            autoplaySpeed: 3000,
+            infinite: true,
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        arrows: true,
+                        slidesToScroll: 1,
+                        slidesToShow: 2,
+                    },
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        arrows: true,
+                        slidesToShow: 1,
+                        slidesToShow: 2,
+                    },
+                },
+            ],
+        });
+        $(".product-list").slick({
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            arrows: true,
+            autoplay: true,
+            autoplaySpeed: 3000,
+            infinite: true,
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        arrows: true,
+                        slidesToShow: 2,
+                    },
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        arrows: true,
+                        slidesToShow: 2,
+                    },
+                },
+            ],
+        });
+    });
+</script>
