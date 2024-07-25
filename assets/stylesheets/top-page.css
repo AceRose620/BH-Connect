@@ -61,13 +61,9 @@
     width: 31px;
 }
 
-
-
 .center-content .header {
     font-size: 23px;
 }
-
-
 
 .center-content .text-content {
     margin-top: 15px;
@@ -427,6 +423,14 @@
     text-align: center;
     font-size: 25px;
     letter-spacing: 4px;
+    width: 224px;
+    margin: 0 auto;
+    border-width: 0 0 5px 0;
+    border-style: solid;
+    border-image-source: url(../images/pick-up-border.png);
+    border-image-slice: 0 0 30% 0;
+    border-image-repeat: stretch;
+    padding-bottom: 10px;
 }
 
 .adverts-container .header-text,
@@ -533,6 +537,8 @@
     margin-top: 6px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    letter-spacing: -1px;
 }
 
 .adverts-container .product-list-container .product-list .sub-product .product-price span.amount,
@@ -826,8 +832,25 @@
         padding-bottom: 10px;
         margin: 0 auto;
     }
+
     .pickup-container .choice-content .sub-content {
         width: 147px;
     }
+
+    .pickup-container .head-title>span {
+        font-size: 13px;
+    }
     
+    .adverts-container .product-list-container .product-list .sub-product .product-price, 
+    .service-container .product-list-container .product-list .sub-product .product-price, 
+    .publish-container .product-list-container .product-list .sub-product .product-price  {
+        font-size: 14px;
+    }
+
+    .adverts-container .product-list-container .product-list .sub-product .product-name, 
+    .service-container .product-list-container .product-list .sub-product .product-name, 
+    .publish-container .product-list-container .product-list .sub-product .product-name {
+        font-size: 20px;
+        height: 95px;
+    }
 }
