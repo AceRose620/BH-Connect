@@ -81,7 +81,7 @@
 }
 
 
-.update-page.main-content .card-content {
+.update-page .card-content {
     display: flex;
     justify-content: space-between;
 }
@@ -143,21 +143,17 @@
     margin-top: 20px;
 }
 
-.update-page.main-content {
-    margin-top: 40px;
-}
-
-.update-page.main-content .table-content p.title {
+.update-page .table-content p.title {
     font-size: 25px;
     letter-spacing: 7.8px;
 }
 
-.update-page.main-content .table-content {
+.update-page .table-content {
     margin-top: 100px;
     text-align: center;
 }
 
-.update-page.main-content .table-content table {
+.update-page .table-content table {
     width: 100%;
     border: 1px solid #707070;
     border-collapse: collapse;
@@ -165,8 +161,8 @@
     text-align: center;
 }
 
-.update-page.main-content .table-content table th,
-.update-page.main-content .table-content table td {
+.update-page .table-content table th,
+.update-page .table-content table td {
     border: 1px solid #707070;
     border-collapse: collapse;
     font-size: 20px;
@@ -175,15 +171,16 @@
     font-weight: normal;
 }
 
-.update-page.main-content .warning-pane {
+.update-page .warning-pane {
     margin-top: 65px;
+    text-align: left;
 }
 
-.update-page.main-content .warning-pane .title {
+.update-page .warning-pane .title {
     font-size: 23px;
 }
 
-.update-page.main-content .warning-pane .text-content {
+.update-page .warning-pane .text-content {
     font-size: 16px;
     margin-top: 20px;
     line-height: 30px;
@@ -212,6 +209,7 @@
     
     .update-page.center-content .middle-content .premium-member .label {
         margin: 0 auto;
+        width: 100%;
     }
 
     .update-page.center-content .middle-content .premium-member .content-pane .title {
@@ -224,8 +222,12 @@
         margin-top: 50px;
         padding: 0 20px;
     }
-    .update-page.main-content {
-        padding: 0 40px;
-        box-sizing: border-box;
+
+    .update-page.center-content .middle-content p.title {
+        letter-spacing: 4.8px;
+    }
+
+    .update-page .table-content table th, .update-page .table-content table td {
+        font-size: 15px;
     }
 }
