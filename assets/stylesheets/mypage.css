@@ -76,8 +76,8 @@
 
 .mypage.center-content .middle-content ul.link-bar {
     display: flex;
-    margin-top: 200px;
     padding: 0;
+    margin-top: 50px;
 }
 
 .mypage.center-content .middle-content ul.link-bar li {
@@ -151,14 +151,14 @@
     .mypage.center-content .middle-content .company-logo  {
         width: 83px;
         height: 83px;
-        margin: 0 35px;
+        margin: 0;
     }
 
     .mypage.center-content .middle-content .company-label  {
         font-size: 22px;
         margin-top: -66px;
-        margin-left: 160px;
-        letter-spacing: -5px;
+        margin-left: 100px;
+        letter-spacing: -7px;
     }
 
     .mypage.center-content .middle-content .point-pane .company-point {
@@ -188,6 +188,34 @@
     }
 
     .mypage.center-content .middle-content ul.link-bar li {
-        
+        width: 40%;
+        font-size: 19px;
+        margin: 20px 0 0 0;
+        letter-spacing: -4px;
+    }
+
+    .mypage.center-content .middle-content .dashboard-container .main-content div.intro-line {
+        flex-direction: column;
+    }
+
+    .mypage.center-content .middle-content .dashboard-container .main-content div.intro-line span.label {
+        flex: auto;
+    }
+
+    .mypage.center-content .middle-content .dashboard-container .main-content div.intro-line span:nth-child(2) {
+        margin-top: 20px;
+    }
+
+    .mypage.center-content .middle-content .dashboard-container .main-content {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .mypage.center-content .middle-content .dashboard-container .main-content .top-bar .sub-title {
+        border-right: none;
+    }
+
+    .mypage.center-content .middle-content img.splitter {
+        width: 200px;
     }
 }
