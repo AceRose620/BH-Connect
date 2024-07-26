@@ -202,7 +202,12 @@
         flex: auto;
     }
 
-    .mypage.center-content .middle-content .dashboard-container .main-content div.intro-line span:nth-child(2) {
+    .mypage.center-content .middle-content .dashboard-container .main-content div.intro-line span:nth-child(2),
+    .mypage.center-content .middle-content .dashboard-container .main-content div.store-line span:nth-child(2),
+    .mypage.center-content .middle-content .dashboard-container .main-content div.business-line span:nth-child(2),
+    .mypage.center-content .middle-content .dashboard-container .main-content div.store-url-line span:nth-child(2),
+    .mypage.center-content .middle-content .dashboard-container .main-content div.company-store-line span:nth-child(2),
+    .mypage.center-content .middle-content .dashboard-container .main-content div.phone-number-line span:nth-child(2) {
         margin-top: 20px;
     }
 
@@ -222,8 +227,16 @@
     .mypage.center-content .middle-content .dashboard-container .main-content div.info {
         justify-content: space-between;
     }
+    
+    .mypage.center-content .middle-content .dashboard-container .main-content div.info span.label {
+        flex: auto;
+    }
 
-    .mypage.center-content .middle-content .dashboard-container .main-content div.birth-line span.label {
-        flex: 0 0 150px;
+    .mypage.center-content .middle-content .dashboard-container .main-content div.store-line,
+    .mypage.center-content .middle-content .dashboard-container .main-content div.business-line,
+    .mypage.center-content .middle-content .dashboard-container .main-content div.store-url-line,
+    .mypage.center-content .middle-content .dashboard-container .main-content div.company-store-line,
+    .mypage.center-content .middle-content .dashboard-container .main-content div.phone-number-line {
+        flex-direction: column;
     }
 }
