@@ -1,0 +1,193 @@
+.mypage.center-content .middle-content p.title {
+    font-size: 25px;
+    letter-spacing: 7.8px;
+}
+
+.mypage.center-content .middle-content .company-back {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mypage.center-content .middle-content .company-logo {
+    width: 180px;
+    height: 180px;
+    border: 5px solid white;
+    border-radius: 95px;
+    background-image: url(../images/company-logo.png);
+    background-size: 100% auto;
+    margin: -60px 35px;
+}
+
+.mypage.center-content .middle-content .company-label {
+    font-size: 28px;
+    letter-spacing: -7.5px;
+    text-align: left;
+    margin-top: -30px;
+    margin-left: 250px;
+}
+
+.mypage.center-content .middle-content .point-pane .company-point {
+    border: 1px solid #707070;
+    border-radius: 30px;
+    display: flex;
+    font-size: 16px;
+    padding: 10px 20px;
+    width: 300px;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+
+.mypage.center-content .middle-content .point-pane .company-point div {
+    width: 50%;
+}
+
+.mypage.center-content .middle-content .point-pane {
+    display: flex;
+}
+
+.mypage.center-content .middle-content .point-pane a.edit-profile {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    letter-spacing: -2px;
+    margin-left: 40px;
+    border-bottom: 1px solid #2D2D2D;
+}
+
+.mypage.center-content .middle-content .point-pane .company-point .point-label {
+    border-right: 1px solid #707070;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mypage.center-content .middle-content .point-pane .company-point .point-amount {
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.mypage.center-content .middle-content .point-pane .company-point .point-amount span {
+    font-size: 18px;
+}
+
+.mypage.center-content .middle-content ul.link-bar {
+    display: flex;
+    margin-top: 200px;
+    padding: 0;
+}
+
+.mypage.center-content .middle-content ul.link-bar li {
+    margin: 0;
+    list-style-type: none;
+    width: 165px;
+    border-bottom: 2px solid #2D2D2D;
+    margin-left: 20px;
+    font-size: 20px;
+    padding-bottom: 10px;
+    letter-spacing: -2px;
+}
+
+.mypage.center-content .middle-content ul.link-bar li.active {
+    border-bottom: 2px solid #FF0000;
+}
+
+.mypage.center-content .middle-content ul.link-bar li:hover {
+    cursor: pointer;
+}
+
+.mypage.center-content .middle-content .dashboard-container .main-content {
+    text-align: left;
+    background-color: #F5F5F5;
+    border-radius: 15px;
+    padding: 50px;
+    font-size: 18px;
+}
+
+.mypage.center-content .middle-content .dashboard-container .main-content div {
+    display: flex;
+}
+
+.mypage.center-content .middle-content .dashboard-container .main-content div.info {
+    margin-top: 20px;
+}
+
+.mypage.center-content .middle-content .dashboard-container .main-content div.name-line {
+    margin-top: 60px;
+}
+
+.mypage.center-content .middle-content .dashboard-container .main-content div.info span.label {
+    flex: 0 0 180px;
+}
+
+.mypage.center-content .middle-content .dashboard-container .main-content .top-bar {
+    background-color: white;
+    padding: 30px 20px;
+}
+
+.mypage.center-content .middle-content .dashboard-container .main-content .top-bar .sub-title {
+    border-right: 1px solid #707070;
+    padding-right: 50px;
+}
+
+.mypage.center-content .middle-content .dashboard-container .main-content .intro-line span:nth-child(1) {
+    width: 100%;
+}
+
+.mypage.center-content .middle-content button.btn-go-back {
+    width: 285px;
+    height: 39px;
+    background-image: url(../images/push-button-back.jpg);
+    background-size: 100% 100%;
+    font-size: 20px;
+    color: white;
+    margin-top: 90px;
+}
+
+@media (max-width: 850px) {
+    .mypage.center-content .middle-content .company-logo  {
+        width: 83px;
+        height: 83px;
+        margin: 0 35px;
+    }
+
+    .mypage.center-content .middle-content .company-label  {
+        font-size: 22px;
+        margin-top: -66px;
+        margin-left: 160px;
+        letter-spacing: -5px;
+    }
+
+    .mypage.center-content .middle-content .point-pane .company-point {
+        width: 100%;
+        margin-top: 40px;
+        margin-left: 0;
+        box-sizing: border-box;
+    }
+
+    .mypage.center-content .middle-content .point-pane a.edit-profile {
+        width: 150px;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .mypage.center-content .middle-content .point-pane .company-point {
+        margin-top: 40px;
+    }
+
+    .mypage.center-content .middle-content .point-pane {
+        flex-direction: column;
+    }
+
+    .mypage.center-content .middle-content ul.link-bar {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .mypage.center-content .middle-content ul.link-bar li {
+        
+    }
+}
