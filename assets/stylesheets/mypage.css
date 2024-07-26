@@ -27,6 +27,8 @@
     text-align: left;
     margin-top: -30px;
     margin-left: 250px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .mypage.center-content .middle-content .point-pane .company-point {
@@ -99,12 +101,18 @@
     cursor: pointer;
 }
 
+.mypage.center-content .middle-content .dashboard-container {
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
 .mypage.center-content .middle-content .dashboard-container .main-content {
     text-align: left;
     background-color: #F5F5F5;
     border-radius: 15px;
     padding: 50px;
     font-size: 18px;
+    margin-top: 35px;
 }
 
 .mypage.center-content .middle-content .dashboard-container .main-content div {
@@ -147,6 +155,112 @@
     margin-top: 90px;
 }
 
+.mypage.center-content .middle-content .dashboard-container .production-table {
+    border: 1px solid #707070;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 35px;
+}
+
+.mypage.center-content .middle-content .dashboard-container .production-table th,
+.mypage.center-content .middle-content .dashboard-container .production-table td {
+    border: 1px solid #707070;
+    border-collapse: collapse;
+    font-weight: normal;
+}
+
+.mypage.center-content .middle-content .dashboard-container .production-table td {
+    padding: 25px 0;
+}
+
+.mypage.center-content .middle-content .dashboard-container .production-table th {
+    background-color: #C2C2C2;
+    font-size: 18px;
+}
+
+.mypage.center-content .middle-content .dashboard-container .production-table th:nth-child(2) {
+    font-size: 22px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.mypage.center-content .middle-content .dashboard-container .production-table td:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-bottom: 1px solid #707070;
+}
+
+.mypage.center-content .middle-content .dashboard-container .production-table tr:last-child td:nth-child(2) {
+    border: none;
+}
+
+.mypage.center-content .middle-content .dashboard-container .production-table td span {
+    margin-left: 10px;
+}
+
+.mypage.center-content .middle-content span.free-member {
+    background-color: #C2C2C2;
+    width: 154px;
+    height: 47px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    letter-spacing: normal;
+}
+
+.mypage.center-content .middle-content .mobile-free-member {
+    display: flex;
+}
+
+.mypage.center-content .middle-content .mobile-free-member span.free-member {
+    display: none;
+}
+
+.mypage.center-content .middle-content .mobile.sub-production {
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F5F5;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.mypage.center-content .middle-content .mobile.sub-production div {
+    display: flex;
+    border-bottom: 1px solid white;
+}
+
+.mypage.center-content .middle-content .mobile.sub-production div .label {
+    background-color: #C2C2C2;
+    width: 40%;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.mypage.center-content .middle-content .mobile.sub-production div:nth-child(2) .label {
+    width: 100%;
+}
+
+.mypage.center-content .middle-content .mobile.sub-production div:nth-child(2) .info {
+    width: 100%;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    align-items: normal;
+}
+
+.mypage.center-content .middle-content .mobile.sub-production .product-line {
+    flex-direction: column;
+}
+
+.mypage.center-content .middle-content .mobile.sub-production div .info {
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+}
+
 @media (max-width: 850px) {
     .mypage.center-content .middle-content .company-logo  {
         width: 83px;
@@ -172,6 +286,7 @@
         width: 150px;
         font-size: 18px;
         margin-top: 20px;
+        margin-left: 0;
     }
 
     .mypage.center-content .middle-content .point-pane .company-point {
@@ -238,5 +353,26 @@
     .mypage.center-content .middle-content .dashboard-container .main-content div.company-store-line,
     .mypage.center-content .middle-content .dashboard-container .main-content div.phone-number-line {
         flex-direction: column;
+    }
+
+    .mypage.center-content .middle-content span.free-member {
+        display: none;
+    }
+
+    .mypage.center-content .middle-content .mobile-free-member span.free-member {
+        display: flex;
+        width: 120px;
+        height: 31px;
+        font-size: 15px;
+        margin-top: 20px;
+    }
+
+    .mypage.center-content .middle-content .mobile-free-member {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .mypage.center-content .middle-content .dashboard-container .production-table {
+        display: none;
     }
 }
