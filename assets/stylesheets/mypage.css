@@ -218,4 +218,12 @@
     .mypage.center-content .middle-content img.splitter {
         width: 200px;
     }
+
+    .mypage.center-content .middle-content .dashboard-container .main-content div.info {
+        justify-content: space-between;
+    }
+
+    .mypage.center-content .middle-content .dashboard-container .main-content div.birth-line span.label {
+        flex: 0 0 150px;
+    }
 }
