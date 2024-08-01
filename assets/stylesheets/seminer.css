@@ -1,0 +1,270 @@
+.seminer.center-content .middle-content p.title {
+    font-size: 25px;
+    letter-spacing: 7.8px;
+}
+
+.seminer.center-content .middle-content .seminer-desc {
+    padding: 30px 0px;
+}
+
+.seminer.center-content .middle-content .seminer-desc p {
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.seminer.center-content .middle-content .seminer-search {
+    border: 1px solid #F5F5F5;
+    border-radius: 15px;
+    width: 100%;
+    padding: 30px 10px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.seminer.center-content .middle-content .seminer-search .search-button {
+    position: absolute;
+    border-radius: 15px;
+    padding: 30px 30px;
+    background-color: #2D2D2D;
+    color: #FFFFFF;
+    font-size: 17px;
+    top: 30px;
+    right: 30px;
+}
+
+.seminer.center-content .middle-content .seminer-search .search-items {
+    width: 85%;
+    display: flex;
+    font-size: 17px;
+    padding: 5px 0px;
+}
+
+.seminer.center-content .middle-content .seminer-search .search-item {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.seminer.center-content .middle-content .seminer-search .search-item span {
+    width: 40%;
+}
+
+.seminer.center-content .middle-content .seminer-search .search-item .search-text {
+    width: 60%;
+}
+
+.seminer.center-content .middle-content .seminer-search .search-item .search-text input {
+    border-radius: 10px;
+    border: 1px solid #2d2d2d;
+    padding: 5px 10px;
+    width: 80%;
+}
+
+.seminer.center-content .middle-content .seminer-search .search-item .price-range {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.seminer.center-content .middle-content .seminer-search .search-item .price-range input {
+    width: 70px;
+}
+
+.seminer.center-content .middle-content .product-list {
+    display: flex;
+    flex-grow: 3;
+}
+
+.seminer.center-content .middle-content .product-list .sub-product {
+    flex: 1;
+    width: 30%;
+}
+
+.seminer.center-content .middle-content .seminer-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.seminer.center-content .middle-content .seminer-container .seminer-detail {
+    width: 65%;
+    text-align: left;
+}
+
+.seminer.center-content .middle-content .seminer-container .seminer-detail .seminer-image {
+    width: 100%;
+}
+
+.seminer.center-content .middle-content .seminer-container .seminer-detail .seminer-image img {
+    width: 100%;
+}
+
+.seminer.center-content .middle-content .seminer-container .seminer-detail .seminer-subimage img {
+    width: 25%;
+}
+
+.seminer.center-content .middle-content .seminer-container .seminer-detail .seminer-detail div {
+    padding: 20px 0px;
+}
+
+.seminer.center-content .middle-content .seminer-container .seminer-price {
+    width: 33%;
+}
+
+.seminer.center-content .middle-content .seminer-container .seminer-price .seminer-title {
+    font-size: 23px;
+    text-align: left;
+}
+
+.seminer.center-content .middle-content .seminer-container .seminer-price .seminer-buttons {
+    text-align: left;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.seminer.center-content .middle-content .seminer-container .seminer-price .seminer-buttons .red-button {
+    border-radius: 5px;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-top: 5px;
+}
+
+.seminer.center-content .middle-content .seminer-container .seminer-price .seminer-buttons .favor-button {
+    color: #2D2D2D;
+    font-size: 11px;
+    padding: 10px 20px;
+    margin-top: 5px;
+}
+
+.seminer.center-content .middle-content .seminer-container .seminer-price .seminer-list {
+    text-align: left;
+    font-size: 13px;
+}
+
+.seminer.center-content .middle-content .seminer-container .seminer-price .seminer-list .seminer-items {
+    border-radius: 15px;
+    padding: 20px 20px;
+    background-color: #F5F5F5;
+}
+
+.seminer.center-content .middle-content .seminer-container .seminer-price .seminer-list .seminer-items .seminer-item {
+    border-bottom: 1px solid #2D2D2D;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.seminer.center-content .middle-content .seminer-container .seminer-price .seminer-list .seminer-items .seminer-item .seminer-item-title {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+}
+
+.seminer.center-content .middle-content .seminer-container .seminer-price .seminer-list .seminer-items .seminer-item .seminer-item-title span:nth-child(1) {
+    font-size: 18px;
+}
+
+.seminer.center-content .middle-content .seminer-container .seminer-price .seminer-list .seminer-items .seminer-item .seminer-item-title span:nth-child(2) {
+    font-size: 13px;
+    padding-top: 10px;
+}
+
+.seminer.center-content .middle-content .seminer-container .seminer-price .seminer-list .seminer-items .seminer-item .seminer-item-detail {
+    width: 48%;
+}
+
+.seminer.center-content .middle-content .seminer-container .seminer-price .seminer-list .seminer-items .seminer-item .seminer-item-detail .mark {
+    font-size: 13px;
+    border-radius: 5px;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    padding: 5px 10px;
+}
+
+.seminer.center-content .middle-content .seminer-container .seminer-price .seminer-list .seminer-items .seminer-item .seminer-item-detail span:nth-child(2) {
+    font-size: 23px;
+}
+
+.seminer.center-content .middle-content .seminer-container .seminer-price .seminer-list .seminer-items .seminer-item .seminer-item-detail span:nth-child(2) .note {
+    font-size: 13px;
+}
+
+.seminer.center-content .middle-content .seminer-container .seminer-price .seminer-list .seminer-items .seminer-item .seminer-item-detail span:nth-child(3) {
+    font-size: 12px;
+}
+
+.seminer.center-content .middle-content .product-list .sub-product .product-btn {
+    width: 90%;
+    border-radius: 5px;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    font-size: 17px;
+    padding: 5px 0px;
+    margin-top: 5px;
+}
+
+.seminer.center-content .middle-content button.btn-go-back {
+    width: 285px;
+    height: 39px;
+    background-image: url(../images/push-button-back.jpg);
+    background-size: 100% 100%;
+    font-size: 20px;
+    color: white;
+    margin-top: 90px;
+}
+
+.seminer.center-content .middle-content button.btn-go-next {
+    width: 285px;
+    height: 39px;
+    background-image: url(../images/push-button-next.png);
+    background-size: 100% 100%;
+    font-size: 20px;
+    color: white;
+    margin-top: 90px;
+}
+
+@media (max-width: 850px) {
+    .seminer.center-content .middle-content .company-logo  {
+        width: 83px;
+        height: 83px;
+        margin: 0 35px;
+    }
+
+    .seminer.center-content .middle-content .company-label  {
+        font-size: 22px;
+        margin-top: -66px;
+        margin-left: 160px;
+        letter-spacing: -5px;
+    }
+
+    .seminer.center-content .middle-content .point-pane .company-point {
+        width: 100%;
+        margin-top: 40px;
+        margin-left: 0;
+        box-sizing: border-box;
+    }
+
+    .seminer.center-content .middle-content .point-pane a.edit-profile {
+        width: 150px;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .seminer.center-content .middle-content .point-pane .company-point {
+        margin-top: 40px;
+    }
+
+    .seminer.center-content .middle-content .point-pane {
+        flex-direction: column;
+    }
+
+    .seminer.center-content .middle-content ul.link-bar {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .seminer.center-content .middle-content ul.link-bar li {
+        
+    }
+}

@@ -1,0 +1,271 @@
+.sarcle.center-content .middle-content p.title {
+    font-size: 25px;
+    letter-spacing: 7.8px;
+}
+
+.sarcle.center-content .middle-content .sarcle-desc {
+    padding: 30px 0px;
+}
+
+.sarcle.center-content .middle-content .sarcle-desc p {
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.sarcle.center-content .middle-content .sarcle-search {
+    border: 1px solid #F5F5F5;
+    border-radius: 15px;
+    width: 100%;
+    padding: 30px 10px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.sarcle.center-content .middle-content .sarcle-search .search-button {
+    position: absolute;
+    border-radius: 15px;
+    padding: 30px 30px;
+    background-color: #2D2D2D;
+    color: #FFFFFF;
+    font-size: 17px;
+    top: 30px;
+    right: 30px;
+}
+
+.sarcle.center-content .middle-content .sarcle-search .search-items {
+    width: 85%;
+    display: flex;
+    font-size: 17px;
+    padding: 5px 0px;
+}
+
+.sarcle.center-content .middle-content .sarcle-search .search-item {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sarcle.center-content .middle-content .sarcle-search .search-item span {
+    width: 40%;
+}
+
+.sarcle.center-content .middle-content .sarcle-search .search-item .search-text {
+    width: 60%;
+}
+
+.sarcle.center-content .middle-content .sarcle-search .search-item .search-text input {
+    border-radius: 10px;
+    border: 1px solid #2d2d2d;
+    padding: 5px 10px;
+    width: 80%;
+}
+
+.sarcle.center-content .middle-content .sarcle-search .search-item .price-range {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sarcle.center-content .middle-content .sarcle-search .search-item .price-range input {
+    width: 70px;
+}
+
+.sarcle.center-content .middle-content .product-list {
+    display: flex;
+    flex-grow: 3;
+}
+
+.sarcle.center-content .middle-content .product-list .sub-product {
+    flex: 1;
+    width: 30%;
+}
+
+.sarcle.center-content .middle-content .product-list .sub-product .product-btn {
+    width: 90%;
+    border-radius: 5px;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    font-size: 17px;
+    padding: 5px 0px;
+    margin-top: 5px;
+}
+
+.sarcle.center-content .middle-content .sarcle-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sarcle.center-content .middle-content .sarcle-container .sarcle-detail {
+    width: 65%;
+    text-align: left;
+}
+
+.sarcle.center-content .middle-content .sarcle-container .sarcle-detail .sarcle-image {
+    width: 100%;
+}
+
+.sarcle.center-content .middle-content .sarcle-container .sarcle-detail .sarcle-image img {
+    width: 100%;
+}
+
+.sarcle.center-content .middle-content .sarcle-container .sarcle-detail .sarcle-subimage img {
+    width: 25%;
+}
+
+.sarcle.center-content .middle-content .sarcle-container .sarcle-detail .sarcle-detail div {
+    padding: 20px 0px;
+}
+
+.sarcle.center-content .middle-content .sarcle-container .sarcle-price {
+    width: 33%;
+}
+
+.sarcle.center-content .middle-content .sarcle-container .sarcle-price .sarcle-title {
+    font-size: 23px;
+    text-align: left;
+}
+
+.sarcle.center-content .middle-content .sarcle-container .sarcle-price .sarcle-buttons {
+    text-align: left;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.sarcle.center-content .middle-content .sarcle-container .sarcle-price .sarcle-buttons .red-button {
+    border-radius: 5px;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-top: 5px;
+}
+
+.sarcle.center-content .middle-content .sarcle-container .sarcle-price .sarcle-buttons .favor-button {
+    color: #2D2D2D;
+    font-size: 11px;
+    padding: 10px 20px;
+    margin-top: 5px;
+}
+
+.sarcle.center-content .middle-content .sarcle-container .sarcle-price .sarcle-list {
+    text-align: left;
+    font-size: 13px;
+}
+
+.sarcle.center-content .middle-content .sarcle-container .sarcle-price .sarcle-list .sarcle-items {
+    border-radius: 15px;
+    padding: 20px 20px;
+    background-color: #F5F5F5;
+}
+
+.sarcle.center-content .middle-content .sarcle-container .sarcle-price .sarcle-list .sarcle-items .sarcle-item {
+    border-bottom: 1px solid #2D2D2D;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.sarcle.center-content .middle-content .sarcle-container .sarcle-price .sarcle-list .sarcle-items .sarcle-item .sarcle-item-title {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sarcle.center-content .middle-content .sarcle-container .sarcle-price .sarcle-list .sarcle-items .sarcle-item .sarcle-item-title span:nth-child(1) {
+    font-size: 18px;
+}
+
+.sarcle.center-content .middle-content .sarcle-container .sarcle-price .sarcle-list .sarcle-items .sarcle-item .sarcle-item-title span:nth-child(2) {
+    font-size: 13px;
+    padding-top: 10px;
+}
+
+.sarcle.center-content .middle-content .sarcle-container .sarcle-price .sarcle-list .sarcle-items .sarcle-item .sarcle-item-detail {
+    width: 48%;
+}
+
+.sarcle.center-content .middle-content .sarcle-container .sarcle-price .sarcle-list .sarcle-items .sarcle-item .sarcle-item-detail .mark {
+    font-size: 13px;
+    border-radius: 5px;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    padding: 5px 10px;
+}
+
+.sarcle.center-content .middle-content .sarcle-container .sarcle-price .sarcle-list .sarcle-items .sarcle-item .sarcle-item-detail span:nth-child(2) {
+    font-size: 23px;
+}
+
+.sarcle.center-content .middle-content .sarcle-container .sarcle-price .sarcle-list .sarcle-items .sarcle-item .sarcle-item-detail span:nth-child(2) .note {
+    font-size: 13px;
+}
+
+.sarcle.center-content .middle-content .sarcle-container .sarcle-price .sarcle-list .sarcle-items .sarcle-item .sarcle-item-detail span:nth-child(3) {
+    font-size: 12px;
+}
+
+
+.sarcle.center-content .middle-content button.btn-go-back {
+    width: 285px;
+    height: 39px;
+    background-image: url(../images/push-button-back.jpg);
+    background-size: 100% 100%;
+    font-size: 20px;
+    color: white;
+    margin-top: 90px;
+}
+
+.sarcle.center-content .middle-content button.btn-go-next {
+    width: 285px;
+    height: 39px;
+    background-image: url(../images/push-button-next.png);
+    background-size: 100% 100%;
+    font-size: 20px;
+    color: white;
+    margin-top: 90px;
+}
+
+@media (max-width: 850px) {
+    .sarcle.center-content .middle-content .company-logo  {
+        width: 83px;
+        height: 83px;
+        margin: 0 35px;
+    }
+
+    .sarcle.center-content .middle-content .company-label  {
+        font-size: 22px;
+        margin-top: -66px;
+        margin-left: 160px;
+        letter-spacing: -5px;
+    }
+
+    .sarcle.center-content .middle-content .point-pane .company-point {
+        width: 100%;
+        margin-top: 40px;
+        margin-left: 0;
+        box-sizing: border-box;
+    }
+
+    .sarcle.center-content .middle-content .point-pane a.edit-profile {
+        width: 150px;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .sarcle.center-content .middle-content .point-pane .company-point {
+        margin-top: 40px;
+    }
+
+    .sarcle.center-content .middle-content .point-pane {
+        flex-direction: column;
+    }
+
+    .sarcle.center-content .middle-content ul.link-bar {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .sarcle.center-content .middle-content ul.link-bar li {
+        
+    }
+}
