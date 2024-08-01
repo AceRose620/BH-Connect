@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<head>
+    <!-- @import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+    @import "tailwindcss/base";
+    @import "tailwindcss/components";
+    @import "tailwindcss/utilities"; -->
+    <title>Beauty + Health</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/stylesheets/application.css">
+    <link rel="stylesheet" href="assets/stylesheets/basic.css">
+    <link rel="stylesheet" href="assets/stylesheets/login.css">
+    <link rel="stylesheet" href="assets/stylesheets/top-page.css">
+    <link rel="stylesheet" href="assets/stylesheets/update.css">
+    <link rel="stylesheet" href="assets/stylesheets/cart.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
+</head>
+<body>
+    <div class="mobile-head-banner"></div>
+    <header> 
+        <div class="center-header">
+            <img class="logo" src="assets/images/bhconnect-logo.png" alt="">
+            <div class="head-banner"></div>
+        </div>
+        <span class="plan-change">プラン変更</span>
+        <span class="splitter">/</span>
+        <span class="button-login">ログイン</span>
+        <div class="mobile-bucket">
+            <img src="./assets/images/bucket.png" alt="">
+            <span class="cart-amount">0</span>
+        </div>
+        <div class="menu-icon">
+            <img src="./assets/images/menu.png" alt="">
+        </div>
+    </header>
+    <button class="btn-go-top">
+        <img src="./assets/images/go-top.png" width="40px" alt=""/>
+    </button>
+    <div class="long-splitter"></div>
+    <div class="top-container">
+        <div class="navigation-bar">
+            <div class="navi-item">B＋Hモール</div>
+            <div class="navi-item">B＋Hセミナー</div>
+            <div class="navi-item">B＋Hサークル</div>
+            <div class="navi-item">マイページ</div>
+            <div class="navi-item active">カート</div>
+        </div>
+        <div class="cart center-content">
+            <div class="background-banner"></div>
+            <div class="middle-content">
+                <p class="title">ショッピングカート</p>
+                <img class="splitter" src="./assets/images/pick-up-border.png" alt="">
+                <div class="dashboard-container">
+                    <div class="cart-content">
+                        <table class="cart-table">
+                            <tr class="cart-header">
+                                <td class="td-infor">商品情報</td>
+                                <td class="td-price">価格（税込）</td>
+                                <td class="td-amount">数量</td>
+                                <td class="td-sum">小計</td>
+                            </tr>
+                            <tr class="cart-content">
+                                <td class="td-infor">
+                                    <input type="checkbox">
+                                    <img src="./assets/images/product-image.png" alt="">
+                                    <span>Tion®‐PREMIUM消臭シート　10枚入り</span>
+                                </td>
+                                <td>4,800円</td>
+                                <td class="td-amount"><input type="text" value="1"><span>個更新</span></td>
+                                <td class="td-sum">4,800円<span>削除</span></td>
+                            </tr>
+                            <tr class="cart-content">
+                                <td class="td-infor">
+                                    <input type="checkbox">
+                                    <img src="./assets/images/product-image.png" alt="">
+                                    <span>Tion®‐PREMIUM消臭シート　10枚入り</span>
+                                </td>
+                                <td>4,800円</td>
+                                <td class="td-amount"><input type="text" value="1"><span>個更新</span></td>
+                                <td class="td-sum">4,800円<span>削除</span></td>
+                            </tr>
+                            <tr class="cart-content">
+                                <td class="td-infor">
+                                    <input type="checkbox">
+                                    <img src="./assets/images/product-image.png" alt="">
+                                    <span>Tion®‐PREMIUM消臭シート　10枚入り</span>
+                                </td>
+                                <td>4,800円</td>
+                                <td class="td-amount"><input type="text" value="1"><span>個更新</span></td>
+                                <td class="td-sum">4,800円<span>削除</span></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="cart-sum">
+                        <div class="cart-sumlist">
+                            <div>小　計 <span>14,400円</span></div>
+                            <div>送　料 <span>380円</span></div>
+                            <div>消費税 <span>1,440円</span></div>
+                            <div>合　計 <span>16,220円</span></div>
+                        </div>
+                        <div class="cart-info">
+                            <div class="cart-desc">
+                                <div>ポイントを使用する（残：4806ポイント）</div>
+                                <div>ポイントで支払う</div>
+                            </div>
+                            <div class="cart-point">
+                                4806 <span>pt</span>
+                            </div>
+                            <div>
+                                <button class="cart-button">購入手続きへ進む</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-refer">
+                        <span>※ポイントとの差額はご登録のクレジットカードより決済されます。</span>
+                    </div>
+                </div>
+                <div class="product-list-container">
+                    <div class="sub-title">
+                        最近チェックしたアイテム
+                    </div>
+                    <div class="product-list">
+                        <div class="sub-product">
+                            <div class="product-number">1</div>
+                            <img src="assets/images/production01.jpg" width="100%" alt="">
+                            <div class="product-name">福寿 純米酒 エコゼロ</div>
+                            <div class="product-info"><span>BGJ</span></div>
+                            <div class="product-price">
+                                B＋H PRO 会員価格
+                                <span class="amount">¥1,200</span>
+                            </div>
+                            <div class="thin-splitter"></div>
+                            <div class="product-price">
+                                一般価格
+                                <span class="amount">¥1,382</span>
+                            </div>
+                            <div class="thick-splitter"></div>
+                            <div>
+                                <button class="product-btn">カートに入れる</button>
+                            </div>
+                        </div>
+                        <div class="sub-product">
+                            <div class="product-number">2</div>
+                            <img src="assets/images/production02.jpg" width="100%" alt="">
+                            <div class="product-name">福寿 純米酒 エコゼロ</div>
+                            <div class="product-info"><span>BGJ</span></div>
+                            <div class="product-price">
+                                B＋H PRO 会員価格
+                                <span class="amount">¥1,200</span>
+                            </div>
+                            <div class="thin-splitter"></div>
+                            <div class="product-price">
+                                一般価格
+                                <span class="amount">¥1,382</span>
+                            </div>
+                            <div class="thick-splitter"></div>
+                            <div>
+                                <button class="product-btn">カートに入れる</button>
+                            </div>
+                        </div>
+                        <div class="sub-product">
+                            <div class="product-number">3</div>
+                            <img src="assets/images/sm-prodution-1.jpg" width="100%" alt="">
+                            <div class="product-name">福寿 純米酒 エコゼロ</div>
+                            <div class="product-info"><span>BGJ</span></div>
+                            <div class="product-price">
+                                B＋H PRO 会員価格
+                                <span class="amount">¥1,200</span>
+                            </div>
+                            <div class="thin-splitter"></div>
+                            <div class="product-price">
+                                一般価格
+                                <span class="amount">¥1,382</span>
+                            </div>
+                            <div class="thick-splitter"></div>
+                            <div>
+                                <button class="product-btn">カートに入れる</button>
+                            </div>
+                        </div>
+                        <div class="sub-product">
+                            <div class="product-number">4</div>
+                            <img src="assets/images/sm-production-2.png" width="100%" alt="">
+                            <div class="product-name">福寿 純米酒 エコゼロ</div>
+                            <div class="product-info"><span>BGJ</span></div>
+                            <div class="product-price">
+                                B＋H PRO 会員価格
+                                <span class="amount">¥1,200</span>
+                            </div>
+                            <div class="thin-splitter"></div>
+                            <div class="product-price">
+                                一般価格
+                                <span class="amount">¥1,382</span>
+                            </div>
+                            <div class="thick-splitter"></div>
+                            <div>
+                                <button class="product-btn">カートに入れる</button>
+                            </div>
+                        </div>
+                        <div class="sub-product">
+                            <div class="product-number">5</div>
+                            <img src="assets/images/sm-production-2.png" width="100%" alt="">
+                            <div class="product-name">福寿 純米酒 エコゼロ</div>
+                            <div class="product-info"><span>BGJ</span></div>
+                            <div class="product-price">
+                                B＋H PRO 会員価格
+                                <span class="amount">¥1,200</span>
+                            </div>
+                            <div class="thin-splitter"></div>
+                            <div class="product-price">
+                                一般価格
+                                <span class="amount">¥1,382</span>
+                            </div>
+                            <div class="thick-splitter"></div>
+                            <div>
+                                <button class="product-btn">カートに入れる</button>
+                            </div>
+                        </div>
+                        <div class="sub-product">
+                            <div class="product-number">6</div>
+                            <img src="assets/images/sm-production-2.png" width="100%" alt="">
+                            <div class="product-name">福寿 純米酒 エコゼロ</div>
+                            <div class="product-info"><span>BGJ</span></div>
+                            <div class="product-price">
+                                B＋H PRO 会員価格
+                                <span class="amount">¥1,200</span>
+                            </div>
+                            <div class="thin-splitter"></div>
+                            <div class="product-price">
+                                一般価格
+                                <span class="amount">¥1,382</span>
+                            </div>
+                            <div class="thick-splitter"></div>
+                            <div>
+                                <button class="product-btn">カートに入れる</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-list-container">
+                    <div class="sub-title">
+                        お気に入りリスト
+                    </div>
+                    <div class="product-list">
+                        <div class="sub-product">
+                            <div class="product-number">1</div>
+                            <img src="assets/images/production01.jpg" width="100%" alt="">
+                            <div class="product-name">福寿 純米酒 エコゼロ</div>
+                            <div class="product-info"><span>BGJ</span></div>
+                            <div class="product-price">
+                                B＋H PRO 会員価格
+                                <span class="amount">¥1,200</span>
+                            </div>
+                            <div class="thin-splitter"></div>
+                            <div class="product-price">
+                                一般価格
+                                <span class="amount">¥1,382</span>
+                            </div>
+                            <div class="thick-splitter"></div>
+                            <div>
+                                <button class="product-btn">カートに入れる</button>
+                            </div>
+                        </div>
+                        <div class="sub-product">
+                            <div class="product-number">2</div>
+                            <img src="assets/images/production02.jpg" width="100%" alt="">
+                            <div class="product-name">福寿 純米酒 エコゼロ</div>
+                            <div class="product-info"><span>BGJ</span></div>
+                            <div class="product-price">
+                                B＋H PRO 会員価格
+                                <span class="amount">¥1,200</span>
+                            </div>
+                            <div class="thin-splitter"></div>
+                            <div class="product-price">
+                                一般価格
+                                <span class="amount">¥1,382</span>
+                            </div>
+                            <div class="thick-splitter"></div>
+                            <div>
+                                <button class="product-btn">カートに入れる</button>
+                            </div>
+                        </div>
+                        <div class="sub-product">
+                            <div class="product-number">3</div>
+                            <img src="assets/images/sm-prodution-1.jpg" width="100%" alt="">
+                            <div class="product-name">福寿 純米酒 エコゼロ</div>
+                            <div class="product-info"><span>BGJ</span></div>
+                            <div class="product-price">
+                                B＋H PRO 会員価格
+                                <span class="amount">¥1,200</span>
+                            </div>
+                            <div class="thin-splitter"></div>
+                            <div class="product-price">
+                                一般価格
+                                <span class="amount">¥1,382</span>
+                            </div>
+                            <div class="thick-splitter"></div>
+                            <div>
+                                <button class="product-btn">カートに入れる</button>
+                            </div>
+                        </div>
+                        <div class="sub-product">
+                            <div class="product-number">4</div>
+                            <img src="assets/images/sm-production-2.png" width="100%" alt="">
+                            <div class="product-name">福寿 純米酒 エコゼロ</div>
+                            <div class="product-info"><span>BGJ</span></div>
+                            <div class="product-price">
+                                B＋H PRO 会員価格
+                                <span class="amount">¥1,200</span>
+                            </div>
+                            <div class="thin-splitter"></div>
+                            <div class="product-price">
+                                一般価格
+                                <span class="amount">¥1,382</span>
+                            </div>
+                            <div class="thick-splitter"></div>
+                            <div>
+                                <button class="product-btn">カートに入れる</button>
+                            </div>
+                        </div>
+                        <div class="sub-product">
+                            <div class="product-number">5</div>
+                            <img src="assets/images/sm-production-2.png" width="100%" alt="">
+                            <div class="product-name">福寿 純米酒 エコゼロ</div>
+                            <div class="product-info"><span>BGJ</span></div>
+                            <div class="product-price">
+                                B＋H PRO 会員価格
+                                <span class="amount">¥1,200</span>
+                            </div>
+                            <div class="thin-splitter"></div>
+                            <div class="product-price">
+                                一般価格
+                                <span class="amount">¥1,382</span>
+                            </div>
+                            <div class="thick-splitter"></div>
+                            <div>
+                                <button class="product-btn">カートに入れる</button>
+                            </div>
+                        </div>
+                        <div class="sub-product">
+                            <div class="product-number">6</div>
+                            <img src="assets/images/sm-production-2.png" width="100%" alt="">
+                            <div class="product-name">福寿 純米酒 エコゼロ</div>
+                            <div class="product-info"><span>BGJ</span></div>
+                            <div class="product-price">
+                                B＋H PRO 会員価格
+                                <span class="amount">¥1,200</span>
+                            </div>
+                            <div class="thin-splitter"></div>
+                            <div class="product-price">
+                                一般価格
+                                <span class="amount">¥1,382</span>
+                            </div>
+                            <div class="thick-splitter"></div>
+                            <div>
+                                <button class="product-btn">カートに入れる</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-list-container">
+                    <div class="sub-title">
+                        もう一度買う
+                    </div>
+                    <div class="product-list">
+                        <div class="sub-product">
+                            <div class="product-number">1</div>
+                            <img src="assets/images/production01.jpg" width="100%" alt="">
+                            <div class="product-name">福寿 純米酒 エコゼロ</div>
+                            <div class="product-info"><span>BGJ</span></div>
+                            <div class="product-price">
+                                B＋H PRO 会員価格
+                                <span class="amount">¥1,200</span>
+                            </div>
+                            <div class="thin-splitter"></div>
+                            <div class="product-price">
+                                一般価格
+                                <span class="amount">¥1,382</span>
+                            </div>
+                            <div class="thick-splitter"></div>
+                            <div>
+                                <button class="product-btn">カートに入れる</button>
+                            </div>
+                        </div>
+                        <div class="sub-product">
+                            <div class="product-number">2</div>
+                            <img src="assets/images/production02.jpg" width="100%" alt="">
+                            <div class="product-name">福寿 純米酒 エコゼロ</div>
+                            <div class="product-info"><span>BGJ</span></div>
+                            <div class="product-price">
+                                B＋H PRO 会員価格
+                                <span class="amount">¥1,200</span>
+                            </div>
+                            <div class="thin-splitter"></div>
+                            <div class="product-price">
+                                一般価格
+                                <span class="amount">¥1,382</span>
+                            </div>
+                            <div class="thick-splitter"></div>
+                            <div>
+                                <button class="product-btn">カートに入れる</button>
+                            </div>
+                        </div>
+                        <div class="sub-product">
+                            <div class="product-number">3</div>
+                            <img src="assets/images/sm-prodution-1.jpg" width="100%" alt="">
+                            <div class="product-name">福寿 純米酒 エコゼロ</div>
+                            <div class="product-info"><span>BGJ</span></div>
+                            <div class="product-price">
+                                B＋H PRO 会員価格
+                                <span class="amount">¥1,200</span>
+                            </div>
+                            <div class="thin-splitter"></div>
+                            <div class="product-price">
+                                一般価格
+                                <span class="amount">¥1,382</span>
+                            </div>
+                            <div class="thick-splitter"></div>
+                            <div>
+                                <button class="product-btn">カートに入れる</button>
+                            </div>
+                        </div>
+                        <div class="sub-product">
+                            <div class="product-number">4</div>
+                            <img src="assets/images/sm-production-2.png" width="100%" alt="">
+                            <div class="product-name">福寿 純米酒 エコゼロ</div>
+                            <div class="product-info"><span>BGJ</span></div>
+                            <div class="product-price">
+                                B＋H PRO 会員価格
+                                <span class="amount">¥1,200</span>
+                            </div>
+                            <div class="thin-splitter"></div>
+                            <div class="product-price">
+                                一般価格
+                                <span class="amount">¥1,382</span>
+                            </div>
+                            <div class="thick-splitter"></div>
+                            <div>
+                                <button class="product-btn">カートに入れる</button>
+                            </div>
+                        </div>
+                        <div class="sub-product">
+                            <div class="product-number">5</div>
+                            <img src="assets/images/sm-production-2.png" width="100%" alt="">
+                            <div class="product-name">福寿 純米酒 エコゼロ</div>
+                            <div class="product-info"><span>BGJ</span></div>
+                            <div class="product-price">
+                                B＋H PRO 会員価格
+                                <span class="amount">¥1,200</span>
+                            </div>
+                            <div class="thin-splitter"></div>
+                            <div class="product-price">
+                                一般価格
+                                <span class="amount">¥1,382</span>
+                            </div>
+                            <div class="thick-splitter"></div>
+                            <div>
+                                <button class="product-btn">カートに入れる</button>
+                            </div>
+                        </div>
+                        <div class="sub-product">
+                            <div class="product-number">6</div>
+                            <img src="assets/images/sm-production-2.png" width="100%" alt="">
+                            <div class="product-name">福寿 純米酒 エコゼロ</div>
+                            <div class="product-info"><span>BGJ</span></div>
+                            <div class="product-price">
+                                B＋H PRO 会員価格
+                                <span class="amount">¥1,200</span>
+                            </div>
+                            <div class="thin-splitter"></div>
+                            <div class="product-price">
+                                一般価格
+                                <span class="amount">¥1,382</span>
+                            </div>
+                            <div class="thick-splitter"></div>
+                            <div>
+                                <button class="product-btn">カートに入れる</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn-go-back">
+                    買い物を続ける
+                </button>
+                <div class="footer-banner">
+                    <div class="banner"></div>
+                    <div class="banner"></div>
+                </div>
+                <div class="footer-logo">
+                    <img src="assets/images/bhconnect-logo.png" width="87" alt="">
+                </div>
+                <div class="footer-link">
+                    <div class="sub-link">B＋Hモール</div>
+                    <div class="sub-link">B＋Hセミナー</div>
+                    <div class="sub-link">B＋Hサークル</div>
+                    <div class="sub-link">マイページ</div>
+                    <div class="sub-link">カート</div>
+                </div>
+            </div>
+            <div class="background-banner"></div>
+        </div>
+    </div>
+</body>
+<footer>
+    <div class="company-info">
+        <div class="company-type">【運営会社】</div>
+        <div class="company-label">
+            <div class="nickname">株式会社ビューティーゲートジャパン</div>
+            <div class="location">大阪府大阪市淀川区西中島３丁目１８番９号３０２</div>
+        </div>
+    </div>
+    <div class="company-link">
+        <div class="sub-link">利用規約</div>
+        <div class="sub-link">プライバシーポリシー</div>
+        <div class="sub-link">特定商取引法に基づく表記</div>
+    </div>
+</footer>
+<p class="version">Copyright © 2024 Beauty Gate Japan Co.Ltd All Rights Reserved.</p>
+</html>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script src="./assets/scripts/basic.js"></script>
+<script src="./assets/scripts/cart.js"></script>

@@ -33,7 +33,7 @@
         <div class="menu-icon">
             <img src="./assets/images/menu.png" alt="">
         </div>
-    </header>
+    </header> 
     <button class="btn-go-top">
         <img src="./assets/images/go-top.png" width="40px" alt=""/>
     </button>
@@ -54,7 +54,10 @@
                 <div class="company-back">
                     <img src="./assets/images/company-background.png" width="100%" alt="">
                     <div class="company-logo"></div>
-                    <div class="company-label">ビューティーゲートジャパン</div>
+                    <div class="company-title">
+                        <div class="company-label">ビューティーゲートジャパン</div>
+                        <div class="company-level">無料会員</div>
+                    </div>
                     <div class="point-pane">
                         <div class="company-point">
                             <div class="point-label">保有ポイント</div>
@@ -64,62 +67,92 @@
                     </div>
                 </div> 
                 <ul class="link-bar">
-                    <li class="active"><a href="./mypage.html">プロフィール</a></li>
+                    <li><a href="./mypage.html">プロフィール</a></li>
                     <li><a href="./mypage-shop.html">ショップ情報</a></li>
-                    <li><a href="./mypage-history.html">買い物履歴</a></li>
+                    <li class="active"><a href="./mypage-history.html">買い物履歴</a></li>
                     <li><a href="./mypage-favour.html">お気に入りリスト</a></li>
                 </ul>
                 <div class="dashboard-container">
-                    <div class="main-content">
-                        <div class="top-bar">
-                            <div class="sub-title">
-                                参加オープンチャット
-                            </div>
-                        </div>
-                        <div class="info name-line">
-                            <span class="label">名前</span>
-                            <span>山田 太郎</span>
-                        </div>
-                        <div class="info birth-line">
-                            <span class="label">生年月日</span>
-                            <span>1900年00月00日</span>
-                        </div>
-                        <div class="info gender-line">
-                            <span class="label">性別</span>
-                            <span>男性</span>
-                        </div>
-                        <div class="info workplace-line">
-                            <span class="label">勤務先</span>
-                            <span>○○株式会社</span>
-                        </div>
-                        <div class="info industry-line">
-                            <span class="label">業種</span>
-                            <span>エステ業</span>
-                        </div>
-                        <div class="info residence-line">
-                            <span class="label">居住地</span>
-                            <span>大阪府</span>
-                        </div>
-                        <div class="info birthplace-line">
-                            <span class="label">出身地</span>
-                            <span>広島県</span>
-                        </div>
-                        <div class="info interest-line">
-                            <span class="label">興味のある分野</span>
-                            <span>脱毛</span>
-                        </div>
-                        <div class="info intro-line">
-                            <span class="label">自己紹介</span>
-                            <span>
-                                〇〇〇〇〇〇〇〇〇●〇〇〇〇〇〇〇〇〇●〇〇〇〇〇〇〇〇〇●〇〇〇〇〇〇〇〇〇●
-                                〇〇〇〇〇〇〇〇〇●〇〇〇〇〇〇〇〇〇●〇〇〇〇〇〇〇〇〇●〇〇〇〇〇〇〇〇〇●
-                                〇〇〇〇〇〇〇〇〇●〇〇〇〇〇〇〇〇〇●〇〇〇〇〇〇〇〇〇●〇〇〇〇〇〇〇〇〇●
-                                〇〇〇〇〇〇〇〇〇●〇〇〇〇〇〇〇〇〇●〇〇〇〇〇〇〇〇〇●〇〇〇〇〇〇〇〇〇●
-                                〇〇〇〇〇〇〇〇〇●〇〇〇〇〇〇〇〇〇●〇〇〇〇〇〇〇〇〇●〇〇〇〇〇〇〇〇〇●
-                                〇〇〇〇〇〇〇〇〇●〇〇〇〇〇〇〇〇〇●〇〇〇〇〇〇〇〇〇●〇〇〇〇〇〇〇〇〇●
-                                〇〇〇〇〇〇〇〇〇●〇〇〇〇〇〇〇〇〇●
-                            </span>
-                        </div>
+                    <div class="history-content">
+                        <table class="history-table">
+                            <tr class="history-header">
+                                <td class="td-date">購入日</td>
+                                <td class="td-infor">商品情報</td>
+                                <td class="td-price">価格（税込）</td>
+                                <td class="td-amount">数量</td>
+                                <td class="td-sum">小計</td>
+                            </tr>
+                            <tr class="history-content">
+                                <td>2024.5.25</td>
+                                <td class="td-infor">
+                                    <img src="./assets/images/product-image.png" alt="">
+                                    <span>Tion®‐PREMIUM消臭シート　10枚入り</span>
+                                </td>
+                                <td>4,800円</td>
+                                <td>1</td>
+                                <td>4,800円</td>
+                            </tr>
+                            <tr class="history-content">
+                                <td>2024.5.25</td>
+                                <td class="td-infor">
+                                    <img src="./assets/images/product-image.png" alt="">
+                                    <span>Tion®‐PREMIUM消臭シート　10枚入り</span>
+                                </td>
+                                <td>4,800円</td>
+                                <td>1</td>
+                                <td>4,800円</td>
+                            </tr>
+                            <tr class="history-content">
+                                <td>2024.5.25</td>
+                                <td class="td-infor">
+                                    <img src="./assets/images/product-image.png" alt="">
+                                    <span>Tion®‐PREMIUM消臭シート　10枚入り</span>
+                                </td>
+                                <td>4,800円</td>
+                                <td>1</td>
+                                <td>4,800円</td>
+                            </tr>
+                            <tr class="history-content">
+                                <td>2024.5.25</td>
+                                <td class="td-infor">
+                                    <img src="./assets/images/product-image.png" alt="">
+                                    <span>Tion®‐PREMIUM消臭シート　10枚入り</span>
+                                </td>
+                                <td>4,800円</td>
+                                <td>1</td>
+                                <td>4,800円</td>
+                            </tr>
+                            <tr class="history-content">
+                                <td>2024.5.25</td>
+                                <td class="td-infor">
+                                    <img src="./assets/images/product-image.png" alt="">
+                                    <span>Tion®‐PREMIUM消臭シート　10枚入り</span>
+                                </td>
+                                <td>4,800円</td>
+                                <td>1</td>
+                                <td>4,800円</td>
+                            </tr>
+                            <tr class="history-content">
+                                <td>2024.5.25</td>
+                                <td class="td-infor">
+                                    <img src="./assets/images/product-image.png" alt="">
+                                    <span>Tion®‐PREMIUM消臭シート　10枚入り</span>
+                                </td>
+                                <td>4,800円</td>
+                                <td>1</td>
+                                <td>4,800円</td>
+                            </tr>
+                            <tr class="history-content">
+                                <td>2024.5.25</td>
+                                <td class="td-infor">
+                                    <img src="./assets/images/product-image.png" alt="">
+                                    <span>Tion®‐PREMIUM消臭シート　10枚入り</span>
+                                </td>
+                                <td>4,800円</td>
+                                <td>1</td>
+                                <td>4,800円</td>
+                            </tr>
+                        </table>
                     </div>
                 </div>
                 <button class="btn-go-back">

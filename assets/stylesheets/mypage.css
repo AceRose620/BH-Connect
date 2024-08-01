@@ -21,12 +21,29 @@
     margin: -60px 35px;
 }
 
+.mypage.center-content .middle-content .company-title {
+    display: flex;
+    justify-content: space-between;
+}
+
 .mypage.center-content .middle-content .company-label {
     font-size: 28px;
-    letter-spacing: -7.5px;
+    font-weight: bold;
+    letter-spacing: -3.5px;
     text-align: left;
-    margin-top: -30px;
+    margin-top: -50px;
     margin-left: 250px;
+}
+
+.mypage.center-content .middle-content .company-level {
+    background-color: #c2c2c2;
+    border-radius: 30px;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    width: 80px;
+    padding: 12px 36px;
+    margin-top: -50px;
 }
 
 .mypage.center-content .middle-content .point-pane .company-point {
@@ -34,7 +51,7 @@
     border-radius: 30px;
     display: flex;
     font-size: 16px;
-    padding: 10px 20px;
+    padding: 5px 20px;
     width: 300px;
     margin-left: 250px;
     margin-top: 20px;
@@ -50,6 +67,7 @@
 
 .mypage.center-content .middle-content .point-pane a.edit-profile {
     display: flex;
+    font-size: 18px;
     justify-content: center;
     align-items: end;
     letter-spacing: -2px;
@@ -76,7 +94,7 @@
 
 .mypage.center-content .middle-content ul.link-bar {
     display: flex;
-    margin-top: 200px;
+    margin-top: 30px;
     padding: 0;
 }
 
@@ -113,6 +131,7 @@
 
 .mypage.center-content .middle-content .dashboard-container .main-content div.info {
     margin-top: 20px;
+    border-bottom: 1px solid grey;
 }
 
 .mypage.center-content .middle-content .dashboard-container .main-content div.name-line {
@@ -133,14 +152,331 @@
     padding-right: 50px;
 }
 
+.mypage.center-content .middle-content .dashboard-container .main-content .shop-image img {
+    width: 100%;
+    height: auto;
+}
+
 .mypage.center-content .middle-content .dashboard-container .main-content .intro-line span:nth-child(1) {
     width: 100%;
+}
+
+.mypage.center-content .middle-content .dashboard-container .main-content .intro-line span:nth-child(2) {
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+
+/* mypage-history */
+.mypage.center-content .middle-content .dashboard-container .history-content .history-table {
+    width: 100%;
+}
+
+.mypage.center-content .middle-content .dashboard-container .history-content .history-table .history-header {
+    background-color: #c2c2c2;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.mypage.center-content .middle-content .dashboard-container .history-content .history-table .history-header .td-date {
+    width: 15%;
+}
+
+.mypage.center-content .middle-content .dashboard-container .history-content .history-table .history-header .td-infor {
+    text-align: left;
+    padding-left: 30px;
+}
+
+.mypage.center-content .middle-content .dashboard-container .history-content .history-table .history-header .td-price {
+    width: 15%;
+}
+
+.mypage.center-content .middle-content .dashboard-container .history-content .history-table .history-header .td-amount {
+    width: 10%;
+}
+
+.mypage.center-content .middle-content .dashboard-container .history-content .history-table .history-header .td-sum {
+    width: 10%;
+}
+
+.mypage.center-content .middle-content .dashboard-container .history-content .history-table .history-content {
+    background-color: #f5f5f5;
+    height: 152px;
+    font-size: 18px;
+}
+
+.mypage.center-content .middle-content .dashboard-container .history-content .history-table .history-content .td-infor {
+    display: flex;
+    text-align: left;
+    line-height: 20px;
+    padding: 26px 20px;
+}
+
+.mypage.center-content .middle-content .dashboard-container .history-content .history-table .history-content .td-infor span {
+    margin-left: 10px;
+}
+
+/* mypage-edit */
+.mypage.center-content .middle-content .dashboard-container .profile-content {
+    width: 100%;
+}
+
+.mypage.center-content .middle-content .dashboard-container .profile-content .profile-group {
+    width: 100%;
+    text-align: left;
+    margin-top: 50px;
+}
+
+.mypage.center-content .middle-content .dashboard-container .profile-content .profile-group .group-title {
+    margin-bottom: 40px;
+}
+
+.mypage.center-content .middle-content .dashboard-container .profile-content .profile-group .group-title span {
+    font-size: 20px;
+    border-bottom: 3px solid #2d2d2d;
+}
+
+.mypage.center-content .middle-content .dashboard-container .profile-content .profile-card {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    height: 150px;
+    border-radius: 15px;
+    border: 1px solid #707070;
+    margin-bottom: 30px;
+    padding: 0px 30px;
+}
+
+.mypage.center-content .middle-content .dashboard-container .profile-content .profile-card .profile-card-title {
+    width: 250px;
+}
+
+.mypage.center-content .middle-content .dashboard-container .profile-content .profile-card .profile-card-image {
+    width: 100px;
+    height: 100px;
+}
+
+.mypage.center-content .middle-content .dashboard-container .profile-content .profile-card .profile-card-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.mypage.center-content .middle-content .dashboard-container .profile-content .profile-card .profile-card-file {
+    margin-left: 80px;
+}
+
+.mypage.center-content .middle-content .dashboard-container .profile-content .profile-card .profile-card-input {
+    margin-left: 50px;
+    flex-grow: 1;
+}
+
+.mypage.center-content .middle-content .dashboard-container .profile-content .profile-card .profile-card-input input {
+    width: 100%;
+    border: 0px;
+    border-bottom: 1px solid #878787;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+
+.mypage.center-content .middle-content .dashboard-container .profile-content .profile-long-card {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    height: 464px;
+    border-radius: 15px;
+    border: 1px solid #707070;
+    margin-bottom: 30px;
+    padding: 0px 30px;
+}
+
+.mypage.center-content .middle-content .dashboard-container .profile-content .profile-long-card .profile-card-title {
+    width: 250px;
+    height: 464px;
+    padding-top: 100px;
+}
+
+.mypage.center-content .middle-content .dashboard-container .profile-content .profile-long-card .profile-card-content {
+    flex-grow: 1;
+}
+
+.mypage.center-content .middle-content .dashboard-container .profile-content .profile-long-card .profile-card-sub {
+    display: flex;
+}
+
+.mypage.center-content .middle-content .dashboard-container .profile-content .profile-long-card .profile-card-subtitle {
+    width: 150px;
+    margin: 10px 0px;
+}
+
+.mypage.center-content .middle-content .dashboard-container .profile-content .profile-long-card .profile-card-subinput {
+    flex-grow: 1;
+    padding-right: 30px;    
+}
+
+.mypage.center-content .middle-content .dashboard-container .profile-content .profile-long-card .profile-card-subinput input {
+    width: 100%;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid #878787;
+    font-size: 18px;
+    margin: 10px 0px;
+    padding-left: 10px;
+}
+
+.mypage.center-content .middle-content .dashboard-container .profile-content .profile-long-card .profile-card-subinput .input-zipcode {
+    width: 100px;
+}
+
+.mypage.center-content .middle-content .dashboard-container .profile-content .profile-long-card .profile-card-subinput .input-area {
+    width: 200px;
+}
+
+.credit-card {
+    height: 660px !important;
+}
+
+.mypage.center-content .middle-content .dashboard-container .profile-content .profile-long-card .profile-card-content .profile-card-credit a {
+    margin-right: 10px;
+}
+
+.mypage.center-content .middle-content .dashboard-container .profile-content .profile-long-card .profile-card-content .profile-card-credit a input {
+    height: 40px;
+}
+
+.mypage.center-content .middle-content .dashboard-container .profile-content .profile-long-card .profile-card-content .profile-card-credit a img {
+    height: 40px;
+}
+
+.mypage.center-content .middle-content .dashboard-container .profile-content .profile-long-card .profile-card-content .profile-card-credit div {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.mypage.center-content .middle-content .dashboard-container .profile-content .profile-long-card .profile-card-content .profile-card-info {
+    margin: 20px 0px;
+}
+
+.mypage.center-content .middle-content .dashboard-container .profile-content .profile-long-card .profile-card-content .profile-card-label {
+    background-color: #e6e6e6;
+    font-size: 16px;
+    border-radius: 15px;
+    padding: 5px 25px;
+    width: fit-content;
+}
+
+.mypage.center-content .middle-content .dashboard-container .profile-content .profile-long-card .profile-card-content .profile-card-label span {
+    background-color: #ff0000;
+    color: #FFFFFF;
+    font-size: 12px;
+    border-radius: 5px;
+    padding: 2px 10px;
+}
+
+.mypage.center-content .middle-content .dashboard-container .profile-content .profile-long-card .profile-card-content .profile-card-value input {
+    line-height: 30px;
+    border-radius: 10px;
+    border: 1px solid #878787;
+    margin: 10px 0px;
+    width: 100%;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.mypage.center-content .middle-content .dashboard-container .profile-content .profile-credit .profile-credit-desc {
+    line-height: 100px;
+    font-size: 18px;
+}
+
+/* mypage-card */
+.mypage.center-content .middle-content .dashboard-container .profile-content .profile-credit .profile-credit-content .profile-card-info {
+    margin: 20px 0px;
+    text-align: left;
+}
+
+.mypage.center-content .middle-content .dashboard-container .profile-content .profile-credit .profile-credit-content .profile-card-label {
+    background-color: #e6e6e6;
+    font-size: 16px;
+    border-radius: 15px;
+    padding: 5px 25px;
+    width: fit-content;
+}
+
+.mypage.center-content .middle-content .dashboard-container .profile-content .profile-credit .profile-credit-content .profile-card-label span {
+    background-color: #ff0000;
+    color: #FFFFFF;
+    font-size: 12px;
+    border-radius: 5px;
+    padding: 2px 10px;
+}
+
+.mypage.center-content .middle-content .dashboard-container .profile-content .profile-credit .profile-credit-content .profile-card-value {
+    display: flex;
+}
+
+.mypage.center-content .middle-content .dashboard-container .profile-content .profile-credit .profile-credit-content .profile-card-value input {
+    line-height: 30px;
+    border-radius: 10px;
+    border: 1px solid #878787;
+    margin: 10px 0px;
+    width: 100%;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.mypage.center-content .middle-content .dashboard-container .profile-content .profile-credit .profile-credit-content .profile-card-value a {
+    margin-top: 20px;
+    margin-right: 10px;
+    display: flex;
+}
+
+.mypage.center-content .middle-content .dashboard-container .profile-content .profile-credit .profile-credit-content .profile-card-value a input {
+    height: 40px;
+}
+
+.mypage.center-content .middle-content .dashboard-container .profile-content .profile-credit .profile-credit-content .profile-card-value a img {
+    height: 40px;
+}
+
+.mypage.center-content .middle-content .dashboard-container .profile-content .profile-credit .profile-credit-content .profile-card-value div {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.mypage.center-content .middle-content .dashboard-container .profile-content .profile-credit .profile-credit-content .profile-card-confirm {
+    display: flex;
+    margin: 20px 0px;
+}
+
+.mypage.center-content .middle-content .dashboard-container .profile-content .profile-credit .profile-credit-content .profile-card-confirm .profile-card-label {
+    width: 200px !important;
+}
+
+.mypage.center-content .middle-content .dashboard-container .profile-content .profile-credit .profile-credit-content .profile-card-confirm .profile-card-value {
+    margin-left: 20px;
+}
+
+/* mypage-card-finish */
+.mypage.center-content .middle-content .dashboard-container .profile-content .profile-credit .profile-credit-success {
+    text-align: center;
+    margin: 30px 0px;
+    font-size: 18px;
 }
 
 .mypage.center-content .middle-content button.btn-go-back {
     width: 285px;
     height: 39px;
     background-image: url(../images/push-button-back.jpg);
+    background-size: 100% 100%;
+    font-size: 20px;
+    color: white;
+    margin-top: 90px;
+}
+
+.mypage.center-content .middle-content button.btn-go-next {
+    width: 285px;
+    height: 39px;
+    background-image: url(../images/push-button-next.png);
     background-size: 100% 100%;
     font-size: 20px;
     color: white;

@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<head>
+    <!-- @import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+    @import "tailwindcss/base";
+    @import "tailwindcss/components";
+    @import "tailwindcss/utilities"; -->
+    <title>Beauty + Health</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/stylesheets/application.css">
+    <link rel="stylesheet" href="assets/stylesheets/basic.css">
+    <link rel="stylesheet" href="assets/stylesheets/login.css">
+    <link rel="stylesheet" href="assets/stylesheets/top-page.css">
+    <link rel="stylesheet" href="assets/stylesheets/update.css">
+    <link rel="stylesheet" href="assets/stylesheets/mypage.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
+</head>
+<body>
+    <div class="mobile-head-banner"></div>
+    <header>
+        <div class="center-header">
+            <img class="logo" src="assets/images/bhconnect-logo.png" alt="">
+            <div class="head-banner"></div>
+        </div>
+        <span class="plan-change">プラン変更</span>
+        <span class="splitter">/</span>
+        <span class="button-login">ログイン</span>
+        <div class="mobile-bucket">
+            <img src="./assets/images/bucket.png" alt="">
+            <span class="cart-amount">0</span>
+        </div>
+        <div class="menu-icon">
+            <img src="./assets/images/menu.png" alt="">
+        </div>
+    </header>
+    <button class="btn-go-top">
+        <img src="./assets/images/go-top.png" width="40px" alt=""/>
+    </button>
+    <div class="long-splitter"></div>
+    <div class="top-container">
+        <div class="navigation-bar">
+            <div class="navi-item">B＋Hモール</div>
+            <div class="navi-item">B＋Hセミナー</div>
+            <div class="navi-item">B＋Hサークル</div>
+            <div class="navi-item active">マイページ</div>
+            <div class="navi-item">カート</div>
+        </div>
+        <div class="mypage center-content">
+            <div class="background-banner"></div>
+            <div class="middle-content">
+                <p class="title">プロフィール編集</p>
+                <img class="splitter" src="./assets/images/pick-up-border.png" alt="">
+                <div class="dashboard-container">
+                    <div class="profile-content">
+                        <div class="profile-group">
+                            <div class="group-title">
+                                <span>プロフィール</span>
+                            </div>
+                            <div class="profile-card">
+                                <div class="profile-card-title">プロフィール画像</div>
+                                <div class="profile-card-image"><img src="./assets/images/company-logo.png" alt=""></div>
+                                <div class="profile-card-file"><input type="file" value="ファイルを選択"></div>
+                            </div>
+                            <div class="profile-card">
+                                <div class="profile-card-title">背景画像</div>
+                                <div class="profile-card-image"><img src="./assets/images/company-background.png" alt=""></div>
+                                <div class="profile-card-file"><input type="file" value="ファイルを選択"></div>
+                            </div>
+                            <div class="profile-card">
+                                <div class="profile-card-title">参加オープンチャット</div>
+                                <div class="profile-card-input"><input type="text"></div>
+                            </div>
+                            <div class="profile-card">
+                                <div class="profile-card-title">お名前</div>
+                                <div class="profile-card-input"><input type="text"></div>
+                            </div>
+                            <div class="profile-card">
+                                <div class="profile-card-title">ニックネーム</div>
+                                <div class="profile-card-input"><input type="text"></div>
+                            </div>
+                            <div class="profile-card">
+                                <div class="profile-card-title">生年月日</div>
+                                <div class="profile-card-input"><input type="text"></div>
+                            </div>
+                            <div class="profile-card">
+                                <div class="profile-card-title">性別</div>
+                                <div class="profile-card-input"><input type="text"></div>
+                            </div>
+                            <div class="profile-card">
+                                <div class="profile-card-title">居住地</div>
+                                <div class="profile-card-input"><input type="text"></div>
+                            </div>
+                            <div class="profile-card">
+                                <div class="profile-card-title">出身地</div>
+                                <div class="profile-card-input"><input type="text"></div>
+                            </div>
+                            <div class="profile-card">
+                                <div class="profile-card-title">業種</div>
+                                <div class="profile-card-input"><input type="text"></div>
+                            </div>
+                            <div class="profile-card">
+                                <div class="profile-card-title">興味ある分野</div>
+                                <div class="profile-card-input"><input type="text"></div>
+                            </div>
+                            <div class="profile-card">
+                                <div class="profile-card-title">電話番号</div>
+                                <div class="profile-card-input"><input type="text"></div>
+                            </div>
+                            <div class="profile-card">
+                                <div class="profile-card-title">自己紹介</div>
+                                <div class="profile-card-input"><input type="text"></div>
+                            </div>
+                        </div>
+                        <div class="profile-group">
+                            <div class="group-title">
+                                <span>ショップ情報</span>
+                            </div>
+                            <div class="profile-card">
+                                <div class="profile-card-title">プロフィール画像</div>
+                                <div class="profile-card-image"><img src="./assets/images/company-logo.png" alt=""></div>
+                                <div class="profile-card-file"><input type="file" value="ファイルを選択"></div>
+                            </div>
+                            <div class="profile-card">
+                                <div class="profile-card-title">店舗名</div>
+                                <div class="profile-card-input"><input type="text"></div>
+                            </div>
+                            <div class="profile-card">
+                                <div class="profile-card-title">事業内容</div>
+                                <div class="profile-card-input"><input type="text"></div>
+                            </div>
+                            <div class="profile-card">
+                                <div class="profile-card-title">お店URL</div>
+                                <div class="profile-card-input"><input type="text"></div>
+                            </div>
+                            <div class="profile-card">
+                                <div class="profile-card-title">会社／店舗情報</div>
+                                <div class="profile-card-input"><input type="text"></div>
+                            </div>
+                            <div class="profile-card">
+                                <div class="profile-card-title">お問合せ電話番号</div>
+                                <div class="profile-card-input"><input type="text"></div>
+                            </div>
+                            <div class="profile-card">
+                                <div class="profile-card-title">会社PR</div>
+                                <div class="profile-card-input"><input type="text"></div>
+                            </div>
+                        </div>
+                        <div class="profile-group">
+                            <div class="group-title">
+                                <span>個人情報</span>
+                            </div>
+                            <div class="profile-long-card">
+                                <div class="profile-card-title">配送先登録住所</div>
+                                <div class="profile-card-content">
+                                    <div class="profile-card-sub">
+                                        <div class="profile-card-subtitle">お名前</div>
+                                        <div class="profile-card-subinput"><input type="text" placeholder="（例）山田太郎" ></div>
+                                    </div>
+                                    <div class="profile-card-sub">
+                                        <div class="profile-card-subtitle">フリガナ</div>
+                                        <div class="profile-card-subinput"><input type="text" placeholder="（例）ヤマダタロウ" ></div>
+                                    </div>
+                                    <div class="profile-card-sub">
+                                        <div class="profile-card-subtitle">電話番号</div>
+                                        <div class="profile-card-subinput"><input type="text" placeholder="（例）0311112222" ></div>
+                                    </div>
+                                    <div class="profile-card-sub">
+                                        <div class="profile-card-subtitle">郵便番号</div>
+                                        <div class="profile-card-subinput"><input class="input-zipcode" type="text" placeholder="0000000" > 住所に反映</div>
+                                    </div>
+                                    <div class="profile-card-sub">
+                                        <div class="profile-card-subtitle">住所</div>
+                                        <div class="profile-card-subinput">
+                                            <input class="input-area" type="text" placeholder="選択してください" ><br/>
+                                            <input type="text" placeholder="市区町村" ><br/>
+                                            <input type="text" placeholder="それ以降の住所" >
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="profile-long-card">
+                                <div class="profile-card-title">注文者情報</div>
+                                <div class="profile-card-content">
+                                    <div class="profile-card-sub">
+                                        <div class="profile-card-subtitle">お名前</div>
+                                        <div class="profile-card-subinput"><input type="text" placeholder="（例）山田太郎" ></div>
+                                    </div>
+                                    <div class="profile-card-sub">
+                                        <div class="profile-card-subtitle">フリガナ</div>
+                                        <div class="profile-card-subinput"><input type="text" placeholder="（例）ヤマダタロウ" ></div>
+                                    </div>
+                                    <div class="profile-card-sub">
+                                        <div class="profile-card-subtitle">電話番号</div>
+                                        <div class="profile-card-subinput"><input type="text" placeholder="（例）0311112222" ></div>
+                                    </div>
+                                    <div class="profile-card-sub">
+                                        <div class="profile-card-subtitle">メールアドレス</div>
+                                        <div class="profile-card-subinput"><input type="text" placeholder="（例）info@aaaa.com" ></div>
+                                    </div>
+                                    <div class="profile-card-sub">
+                                        <div class="profile-card-subtitle">郵便番号</div>
+                                        <div class="profile-card-subinput"><input class="input-zipcode" type="text" placeholder="0000000" > 住所に反映</div>
+                                    </div>
+                                    <div class="profile-card-sub">
+                                        <div class="profile-card-subtitle">住所</div>
+                                        <div class="profile-card-subinput">
+                                            <input class="input-area" type="text" placeholder="選択してください" ><br/>
+                                            <input type="text" placeholder="市区町村" ><br/>
+                                            <input type="text" placeholder="それ以降の住所" >
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="profile-long-card credit-card">
+                                <div class="profile-card-title">クレジットカード情報</div>
+                                <div class="profile-card-content">
+                                    <div class="profile-card-credit">
+                                        <a>
+                                            <input type="radio" name="credit_type">
+                                            <img src="./assets/images/icon_mastercard.png" alt="">
+                                        </a>
+                                        <a>
+                                            <input type="radio" name="credit_type">
+                                            <img src="./assets/images/icon_visa.png" alt="">
+                                        </a>
+                                        <a>
+                                            <input type="radio" name="credit_type">
+                                            <img src="./assets/images/icon_americanexpress.png" alt="">
+                                        </a>
+                                        <a>
+                                            <input type="radio" name="credit_type">
+                                            <img src="./assets/images/icon_jcb.png" alt="">
+                                        </a>
+                                        <a>
+                                            <input type="radio" name="credit_type">
+                                            <img src="./assets/images/icon_dinersclub.png" alt="">
+                                        </a>
+                                        <a>
+                                            <input type="radio" name="credit_type">
+                                            <img src="./assets/images/icon_discover.png" alt="">
+                                        </a>
+                                        <div>上記のクレジットカードをご利用いただけます</div>
+                                    </div>
+                                    <div class="profile-card-info">
+                                        <div class="profile-card-label">
+                                            カード番号 <span>必須</span>
+                                        </div>
+                                        <div class="profile-card-value">
+                                            <input type="text">
+                                        </div>
+                                    </div>
+                                    <div class="profile-card-info">
+                                        <div class="profile-card-label">
+                                            クレジットカード名義人 <span>必須</span>
+                                        </div>
+                                        <div class="profile-card-value">
+                                            <input type="text">
+                                        </div>
+                                    </div>
+                                    <div class="profile-card-info">
+                                        <div class="profile-card-label">
+                                            有効期限 <span>必須</span>
+                                        </div>
+                                        <div class="profile-card-value">
+                                            <input type="text" placeholder="月 / 年">
+                                        </div>
+                                    </div>
+                                    <div class="profile-card-info">
+                                        <div class="profile-card-label">
+                                            セキュリティコード <span>必須</span>
+                                        </div>
+                                        <div class="profile-card-value">
+                                            <input type="text" placeholder="CVC">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn-go-back">
+                    戻　る
+                </button>
+                <div class="footer-banner">
+                    <div class="banner"></div>
+                    <div class="banner"></div>
+                </div>
+                <div class="footer-logo">
+                    <img src="assets/images/bhconnect-logo.png" width="87" alt="">
+                </div>
+                <div class="footer-link">
+                    <div class="sub-link">B＋Hモール</div>
+                    <div class="sub-link">B＋Hセミナー</div>
+                    <div class="sub-link">B＋Hサークル</div>
+                    <div class="sub-link">マイページ</div>
+                    <div class="sub-link">カート</div>
+                </div>
+            </div>
+            <div class="background-banner"></div>
+        </div>
+    </div>
+</body>
+<footer>
+    <div class="company-info">
+        <div class="company-type">【運営会社】</div>
+        <div class="company-label">
+            <div class="nickname">株式会社ビューティーゲートジャパン</div>
+            <div class="location">大阪府大阪市淀川区西中島３丁目１８番９号３０２</div>
+        </div>
+    </div>
+    <div class="company-link">
+        <div class="sub-link">利用規約</div>
+        <div class="sub-link">プライバシーポリシー</div>
+        <div class="sub-link">特定商取引法に基づく表記</div>
+    </div>
+</footer>
+<p class="version">Copyright © 2024 Beauty Gate Japan Co.Ltd All Rights Reserved.</p>
+</html>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="./assets/scripts/basic.js"></script>

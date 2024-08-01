@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<head>
+    <!-- @import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+    @import "tailwindcss/base";
+    @import "tailwindcss/components";
+    @import "tailwindcss/utilities"; -->
+    <title>Beauty + Health</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/stylesheets/application.css">
+    <link rel="stylesheet" href="assets/stylesheets/basic.css">
+    <link rel="stylesheet" href="assets/stylesheets/login.css">
+    <link rel="stylesheet" href="assets/stylesheets/top-page.css">
+    <link rel="stylesheet" href="assets/stylesheets/update.css">
+    <link rel="stylesheet" href="assets/stylesheets/cart.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
+</head>
+<body>
+    <div class="mobile-head-banner"></div>
+    <header> 
+        <div class="center-header">
+            <img class="logo" src="assets/images/bhconnect-logo.png" alt="">
+            <div class="head-banner"></div>
+        </div>
+        <span class="plan-change">プラン変更</span>
+        <span class="splitter">/</span>
+        <span class="button-login">ログイン</span>
+        <div class="mobile-bucket">
+            <img src="./assets/images/bucket.png" alt="">
+            <span class="cart-amount">0</span>
+        </div>
+        <div class="menu-icon">
+            <img src="./assets/images/menu.png" alt="">
+        </div>
+    </header>
+    <button class="btn-go-top">
+        <img src="./assets/images/go-top.png" width="40px" alt=""/>
+    </button>
+    <div class="long-splitter"></div>
+    <div class="top-container">
+        <div class="navigation-bar">
+            <div class="navi-item">B＋Hモール</div>
+            <div class="navi-item">B＋Hセミナー</div>
+            <div class="navi-item">B＋Hサークル</div>
+            <div class="navi-item">マイページ</div>
+            <div class="navi-item active">カート</div>
+        </div>
+        <div class="cart center-content">
+            <div class="background-banner"></div>
+            <div class="middle-content">
+                <div class="content-status">
+                    <div class="content-status-title">
+                        <p class="title">①商品確認</p>
+                        <img class="splitter" src="./assets/images/pick-up-disable-border.png" alt="">
+                    </div>
+                    <div class="content-status-splitter">●●●●●●●</div>
+                    <div class="content-status-title">
+                        <p class="title">②お届け先</p>
+                        <img class="splitter" src="./assets/images/pick-up-disable-border.png" alt="">
+                    </div>
+                    <div class="content-status-splitter">●●●●●●●</div>
+                    <div class="content-status-title active">
+                        <p class="title">③お支払</p>
+                        <img class="splitter" src="./assets/images/pick-up-border.png" alt="">
+                    </div>
+                    <div class="content-status-splitter active">●●●●●●●</div>
+                    <div class="content-status-title">
+                        <p class="title">④最終確認</p>
+                        <img class="splitter" src="./assets/images/pick-up-disable-border.png" alt="">
+                    </div>
+                </div>                
+                <div class="dashboard-container">
+                    <div class="cart-content cart-confirm">
+                        <div class="cart-delivery">
+                            <div class="delivery-dst">
+                                <div class="dst-title">お客様のクレジットカード</div>
+                                <div class="card-detail-info">
+                                    <div>クレジットカード情報</div>
+                                    <div>クレジットカード名義人</div>
+                                    <div>有効期限</div>
+                                </div>
+                                <div class="card-detail-info">
+                                    <div><input type="radio">Visa 末尾　0000</div>
+                                    <div>ヤマダ　タロウ</div>
+                                    <div>00/0000</div>
+                                </div>
+                                <div class="card-detail-info">
+                                    <div><input type="radio">登録していないクレジットカードで支払う</div>
+                                </div>
+                                <div class="profile-credit-content">
+                                    <div class="profile-card-info">
+                                        <div class="profile-card-value">
+                                            <a>
+                                                <input type="radio" name="credit_type">
+                                                <img src="./assets/images/icon_mastercard.png" alt="">
+                                            </a>
+                                            <a>
+                                                <input type="radio" name="credit_type">
+                                                <img src="./assets/images/icon_visa.png" alt="">
+                                            </a>
+                                            <a>
+                                                <input type="radio" name="credit_type">
+                                                <img src="./assets/images/icon_americanexpress.png" alt="">
+                                            </a>
+                                            <a>
+                                                <input type="radio" name="credit_type">
+                                                <img src="./assets/images/icon_jcb.png" alt="">
+                                            </a>
+                                            <a>
+                                                <input type="radio" name="credit_type">
+                                                <img src="./assets/images/icon_dinersclub.png" alt="">
+                                            </a>
+                                            <a>
+                                                <input type="radio" name="credit_type">
+                                                <img src="./assets/images/icon_discover.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div>上記のクレジットカードをご利用いただけます</div>
+                                    </div>
+                                    <div class="profile-card-info">
+                                        <div class="profile-card-label">
+                                            カード番号 <span>必須</span>
+                                        </div>
+                                        <div class="profile-card-value">
+                                            <input type="text">
+                                        </div>
+                                    </div>
+                                    <div class="profile-card-info">
+                                        <div class="profile-card-label">
+                                            クレジットカード名義人 <span>必須</span>
+                                        </div>
+                                        <div class="profile-card-value">
+                                            <input type="text">
+                                        </div>
+                                    </div>
+                                    <div class="profile-card-info">
+                                        <div class="profile-card-label">
+                                            有効期限 <span>必須</span>
+                                        </div>
+                                        <div class="profile-card-value">
+                                            <input type="text" placeholder="月 / 年">
+                                        </div>
+                                    </div>
+                                    <div class="profile-card-info">
+                                        <div class="profile-card-label">
+                                            セキュリティコード <span>必須</span>
+                                        </div>
+                                        <div class="profile-card-value">
+                                            <input type="text" placeholder="CVC">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-confirm-sum">
+                            <div class="cart-sum-item">
+                                <span>小　計</span>
+                                <span>14,400円</span>
+                            </div>
+                            <div class="cart-sum-item">
+                                <span>送　料</span>
+                                <span>380円</span>
+                            </div>
+                            <div class="cart-sum-item">
+                                <span>消費税</span>
+                                <span>1,440円</span>
+                            </div>
+                            <div class="cart-sum-item">
+                                <span>ポイント利用</span>
+                                <span>4806pt</span>
+                            </div>
+                            <div class="cart-sum-item">
+                                <span>合　計</span>
+                                <span>11,414円</span>
+                            </div>
+                            <div>
+                                <button class="delivery-btn">最終内容を確認</button>
+                            </div>
+                            <div class="cart-sum-refer">
+                                <input type="checkbox">
+                                <span>個人情報の取扱についてに同意の上、お支払い方法へ進んでください</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-banner">
+                    <div class="banner"></div>
+                    <div class="banner"></div>
+                </div>
+                <div class="footer-logo">
+                    <img src="assets/images/bhconnect-logo.png" width="87" alt="">
+                </div>
+                <div class="footer-link">
+                    <div class="sub-link">B＋Hモール</div>
+                    <div class="sub-link">B＋Hセミナー</div>
+                    <div class="sub-link">B＋Hサークル</div>
+                    <div class="sub-link">マイページ</div>
+                    <div class="sub-link">カート</div>
+                </div>
+            </div>
+            <div class="background-banner"></div>
+        </div>
+    </div>
+</body>
+<footer>
+    <div class="company-info">
+        <div class="company-type">【運営会社】</div>
+        <div class="company-label">
+            <div class="nickname">株式会社ビューティーゲートジャパン</div>
+            <div class="location">大阪府大阪市淀川区西中島３丁目１８番９号３０２</div>
+        </div>
+    </div>
+    <div class="company-link">
+        <div class="sub-link">利用規約</div>
+        <div class="sub-link">プライバシーポリシー</div>
+        <div class="sub-link">特定商取引法に基づく表記</div>
+    </div>
+</footer>
+<p class="version">Copyright © 2024 Beauty Gate Japan Co.Ltd All Rights Reserved.</p>
+</html>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script src="./assets/scripts/basic.js"></script>
+<script src="./assets/scripts/cart.js"></script>

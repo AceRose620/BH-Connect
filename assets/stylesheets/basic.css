@@ -84,6 +84,10 @@ header .button-login {
     display: grid;
 }
 
+.navigation-bar .active {
+    border-bottom: 3px solid red;
+}
+
 .navigation-bar .navi-item:hover {
     cursor: pointer;
     border-bottom: 3px solid red;
@@ -129,6 +133,7 @@ header .button-login {
 .footer-link {
     display: flex;
     margin-top: 57px;
+    margin-bottom: 10px;
 }
 
 .footer-link .sub-link {
